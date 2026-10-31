@@ -28,6 +28,16 @@ python generator/reproduce.py --scale full --reference data/full     # regenerat
 python -m unittest discover -s tests -v                              # unit + integration tests
 ```
 
+## Submission documents (transparency & reasoning)
+
+| Document | Contents |
+|---|---|
+| [`AI_USAGE.md`](AI_USAGE.md) | Tools used, where AI accelerated the work, where the project relies on it, defects the AI introduced and how they were caught, what was validated and how, and a section for the author's own review notes |
+| [`PROMPT_HISTORY.md`](PROMPT_HISTORY.md) | Every prompt given to the LLM (verbatim) and the delegation prompts used for parallel sub-agents |
+| [`REASONING.md`](REASONING.md) | Problem understanding, assumptions, key decisions and trade-offs, testing approach, how we know it works, limitations |
+| [`docs/problem_statement.md`](docs/problem_statement.md) | The problem statement as provided |
+| [`docs/business_rules.md`](docs/business_rules.md) | The documented scoring, routing, consent, de-dup, task, outcome and edge-case rules |
+
 ## Personas (top-right switcher; the API enforces RBAC with the `X-Role` header)
 
 | Persona | Landing page | What they do |

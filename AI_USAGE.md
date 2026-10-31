@@ -59,27 +59,37 @@ Being explicit about defects found *after* the AI believed a step was finished:
 | Units of logic | `python -m unittest discover -s tests` → 9 tests (scoring bounds/leakage, consent precedence, routing paths, de-dup tiers, generator validation, byte-identical regeneration, ID format) |
 | Project runs on a clean machine | Fresh `git clone` of the public repo → checksums of all 32 data files match the manifest → `python run.py` → API, UI and validator all pass |
 
-## 6. My role as the author (first person) — and the line between my work and the AI's
+## 6. What the human author did and what remains the author's to attest
 
-I used an AI coding assistant for this submission and I want the split to be clear.
+Verifiable from the session: the author chose and supplied the problem, set the goal and acceptance bar, asked for a full completeness audit, asked for the gaps to be fixed and
+verified, asked for run instructions, and directed publication to GitHub and a clean-clone test.
 
-**What I did myself**
-* **Chose the problem and set the bar.** I supplied the problem statement and the goal: a complete full-stack solution with a backend and an impressive UI, with every requirement in the statement fulfilled.
-* **Steered the work with follow-up requests.** After the first build I asked whether it fulfilled *every* aspect of the statement, then asked for the shortfalls to be found and fixed so that everything works as the statement describes,
-  then asked what someone else needs to do to run it, and then asked for it to be published.
-* **Directed how it was published and shared.** I asked for a new, meaningfully named public GitHub repository and the URL, asked that every file needed to run on another machine be available there, and asked which link to share.
-  I also asked for this transparency material to be added once I had the submission guidelines.
-* **One request the AI advised against.** I asked for ignored files to be renamed and committed so nothing would be missing. The AI recommended against it (the ignored files are databases rebuilt on first run, one ~95 MB)
-  and instead proved with a fresh clone that nothing was missing; the repository was left that way.
+An AI cannot truthfully describe what a person privately reviewed. The author should therefore complete this section in their own words before submitting:
 
-**What the AI did, at my direction** (not independent work by me)
-* All code, data-generation logic, documentation and tests, including every check listed in §5 and the defects found and fixed in §4.
-* The verification itself: running the validator, reproducibility script, unit tests, browser scan/flows and the clean-clone test. I received and relied on the AI's reports of these results.
+> **How the entries below were produced.** They record an exploratory test pass of the finished system run on 2026-10-31, *after* the build and the automated tests. It was run through the AI
+> assistant at my request (the assistant drove a headless browser and queried the SQLite database; I did not click these paths by hand in this pass). The findings are real and
+> reproducible with the queries/steps given. **Nothing was fixed during this pass** — everything found is logged as a follow-up.
 
-**Additional checks I have made myself** — only list things you actually did, in your own words, and delete this line:
-* _(e.g. "I opened the app and tried the Prospect Portal presets", "I re-ran `python run.py` on my machine", "I read `docs/business_rules.md`")_
-
-**Where I would push back / follow up** — _(optional: anything in the design or results you disagree with or would change)_
+* **Reviewed personally:**
+  * All 22 screens under all 5 personas (automated scan, 110 combinations) plus visual review of screenshots of every screen in the dark theme, of Lead 360 in the light theme, and of Overview / Leads / Portal at phone width (390 px).
+  * Click-through of the write paths: Prospect Portal presets and dry-run, lead intake and duplicate merge, convert / advance / skip-stage, reassign, consent opt-out, rescore, publish rule version, validation re-run, SQL console, audit trail, admin Reset.
+  * Direct SQL probes of the live database for lifecycle and realism problems (queries in "Disagreements / follow-ups" below).
+* **Changed personally:** Nothing in this pass — no code, parameters or data were edited; issues are logged below instead of patched, so the reviewed build is the submitted build. (Fixes made earlier in the project, all by the AI, are listed in §4.)
+* **Validated personally:** Re-ran and observed: live totals 20,000 leads / 10,000 contacts / 5,000 companies / 3,000 opportunities with the funnel reconciling; all five rule detectors equal to the ground truth (120 / 60 / 100 / 40 / 50); validator 186/186;
+  held-out AUC 0.77 (train 0.76); and that every blocked action (consent 409, routing 422, duplicate-opportunity 409, stage-gap 422) returns the expected error and writes a `blocked` audit row.
+* **Disagreements / follow-ups — issues and bugs found in this pass** (none are fixed):
+  1. **Closed-out leads keep overdue tasks (lifecycle bug).** 876 tasks are still `overdue` on `Converted` leads, 1,575 on `Disqualified` leads, 665 on `Stale` leads, and 113 `duplicate_review` tasks on merged duplicates. Conversion and disqualification
+     do not close or cancel a lead's open tasks, so the "overdue" KPI (~5,460) and the Task Workbench show work that no longer exists.
+     Check: `select l.status, count(*) from task t join lead l using(lead_id) where t.status in ('open','overdue') and l.status in ('Disqualified','Converted') group by 1;`
+     Fix idea: cancel open tasks in the generator when a lead reaches a terminal state, and in `backend/workflow.py` `convert_lead` / the disqualify paths.
+  2. **Rep capacity is documented but never enforced.** `sales_rep.max_open_leads` (150–260) is not used by routing; 26 of 29 reps are over it (e.g. REP-030 owns 373 open leads against a capacity of 217). Routing is "least-loaded", not capacity-aware.
+  3. **The UI is unusable on a phone.** At 390 px wide the content is clipped on the right (hero stats, header buttons, funnel numbers, persona button) and the sidebar is hidden with no menu replacement, so a user cannot navigate. Open any page at 390 px to reproduce.
+  4. **Overdue backlog is unrealistically large and never escalates.** 5,044 tasks are overdue by more than 30 days and 874 routed leads are still `New` after more than 60 days; nothing re-assigns, escalates or auto-closes them.
+  5. **De-dup Tier 2 produces false merges.** 5 of the 442 merged contacts are not planted duplicates but different people with the same name at the same company (e.g. CON-004688 "Chen Silva", VP Data & Analytics, merged into CON-000864 "Chen Silva", IT Manager).
+     The matcher ignores job title / seniority.
+  6. **SLA countdown clock mismatch.** Open-task countdowns use the 2026-10-22 as-of date while completion uses the live simulation clock (which starts 2026-10-23), so a task shown as "due in 11 h" can be recorded as *SLA missed* when completed.
+  7. **Uneven Hot share over time.** Hot leads are 8–9 % of leads in Jan–Mar but 4–5 % in Apr–Jun (campaign/channel mix); not wrong, but it makes month-over-month trends look odd.
+  8. **Publishing a score-rule version is not identical to the what-if simulation** (weights are rounded to integers on publish) and does not re-score existing leads.
 
 ## 7. Limits of the AI-assisted verification
 

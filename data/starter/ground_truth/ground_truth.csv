@@ -1,0 +1,456 @@
+gt_id,entity_type,entity_id,issue_type,is_injected,severity,expected_decision,related_entity_id,detail
+GT-000001,contact,CON-000718,duplicate_contact,1,low,merge into CON-000239,CON-000239,variant=hard; detected_by_rules=no
+GT-000002,contact,CON-000728,duplicate_contact,1,low,merge into CON-000544,CON-000544,variant=email_variant; detected_by_rules=yes
+GT-000003,contact,CON-000731,duplicate_contact,1,low,merge into CON-000577,CON-000577,variant=name_variant; detected_by_rules=yes
+GT-000004,contact,CON-000740,duplicate_contact,1,low,merge into CON-000001,CON-000001,variant=email_variant; detected_by_rules=yes
+GT-000005,contact,CON-000756,duplicate_contact,1,low,merge into CON-000475,CON-000475,variant=name_variant; detected_by_rules=yes
+GT-000006,contact,CON-000759,duplicate_contact,1,low,merge into CON-000491,CON-000491,variant=email_variant; detected_by_rules=yes
+GT-000007,contact,CON-000760,duplicate_contact,1,low,merge into CON-000738,CON-000738,variant=email_variant; detected_by_rules=yes
+GT-000008,contact,CON-000780,duplicate_contact,1,low,merge into CON-000654,CON-000654,variant=email_variant; detected_by_rules=yes
+GT-000009,contact,CON-000782,duplicate_contact,1,low,merge into CON-000682,CON-000682,variant=email_variant; detected_by_rules=yes
+GT-000010,contact,CON-000837,duplicate_contact,1,low,merge into CON-000496,CON-000496,variant=email_variant; detected_by_rules=yes
+GT-000011,contact,CON-000856,duplicate_contact,1,low,merge into CON-000076,CON-000076,variant=email_variant; detected_by_rules=yes
+GT-000012,contact,CON-000913,duplicate_contact,1,low,merge into CON-000555,CON-000555,variant=email_variant; detected_by_rules=yes
+GT-000013,contact,CON-000923,duplicate_contact,1,low,merge into CON-000206,CON-000206,variant=name_variant; detected_by_rules=yes
+GT-000014,contact,CON-000925,duplicate_contact,1,low,merge into CON-000152,CON-000152,variant=email_variant; detected_by_rules=yes
+GT-000015,contact,CON-000935,duplicate_contact,1,low,merge into CON-000191,CON-000191,variant=email_variant; detected_by_rules=yes
+GT-000016,contact,CON-000940,duplicate_contact,1,low,merge into CON-000385,CON-000385,variant=hard; detected_by_rules=no
+GT-000017,contact,CON-000950,duplicate_contact,1,low,merge into CON-000871,CON-000871,variant=email_variant; detected_by_rules=yes
+GT-000018,contact,CON-000954,duplicate_contact,1,low,merge into CON-000330,CON-000330,variant=hard; detected_by_rules=no
+GT-000019,contact,CON-000957,duplicate_contact,1,low,merge into CON-000864,CON-000864,variant=name_variant; detected_by_rules=yes
+GT-000020,contact,CON-000958,duplicate_contact,1,low,merge into CON-000377,CON-000377,variant=name_variant; detected_by_rules=yes
+GT-000021,contact,CON-000962,duplicate_contact,1,low,merge into CON-000200,CON-000200,variant=email_variant; detected_by_rules=yes
+GT-000022,contact,CON-000963,duplicate_contact,1,low,merge into CON-000842,CON-000842,variant=hard; detected_by_rules=no
+GT-000023,contact,CON-000968,duplicate_contact,1,low,merge into CON-000327,CON-000327,variant=email_variant; detected_by_rules=yes
+GT-000024,contact,CON-000970,duplicate_contact,1,low,merge into CON-000035,CON-000035,variant=name_variant; detected_by_rules=yes
+GT-000025,contact,CON-000972,duplicate_contact,1,low,merge into CON-000114,CON-000114,variant=email_variant; detected_by_rules=yes
+GT-000026,contact,CON-000973,duplicate_contact,1,low,merge into CON-000277,CON-000277,variant=email_variant; detected_by_rules=yes
+GT-000027,contact,CON-000974,duplicate_contact,1,low,merge into CON-000767,CON-000767,variant=email_variant; detected_by_rules=yes
+GT-000028,contact,CON-000975,duplicate_contact,1,low,merge into CON-000861,CON-000861,variant=name_variant; detected_by_rules=yes
+GT-000029,contact,CON-000976,duplicate_contact,1,low,merge into CON-000463,CON-000463,variant=name_variant; detected_by_rules=yes
+GT-000030,contact,CON-000977,duplicate_contact,1,low,merge into CON-000790,CON-000790,variant=email_variant; detected_by_rules=yes
+GT-000031,contact,CON-000978,duplicate_contact,1,low,merge into CON-000174,CON-000174,variant=email_variant; detected_by_rules=yes
+GT-000032,contact,CON-000979,duplicate_contact,1,low,merge into CON-000843,CON-000843,variant=email_variant; detected_by_rules=yes
+GT-000033,contact,CON-000981,duplicate_contact,1,low,merge into CON-000589,CON-000589,variant=email_variant; detected_by_rules=yes
+GT-000034,contact,CON-000982,duplicate_contact,1,low,merge into CON-000223,CON-000223,variant=email_variant; detected_by_rules=yes
+GT-000035,contact,CON-000983,duplicate_contact,1,low,merge into CON-000236,CON-000236,variant=name_variant; detected_by_rules=yes
+GT-000036,contact,CON-000985,duplicate_contact,1,low,merge into CON-000558,CON-000558,variant=email_variant; detected_by_rules=yes
+GT-000037,contact,CON-000986,duplicate_contact,1,low,merge into CON-000706,CON-000706,variant=name_variant; detected_by_rules=yes
+GT-000038,contact,CON-000987,duplicate_contact,1,low,merge into CON-000725,CON-000725,variant=email_variant; detected_by_rules=yes
+GT-000039,contact,CON-000988,duplicate_contact,1,low,merge into CON-000270,CON-000270,variant=email_variant; detected_by_rules=yes
+GT-000040,contact,CON-000989,duplicate_contact,1,low,merge into CON-000570,CON-000570,variant=hard; detected_by_rules=no
+GT-000041,contact,CON-000990,duplicate_contact,1,low,merge into CON-000860,CON-000860,variant=name_variant; detected_by_rules=yes
+GT-000042,contact,CON-000991,duplicate_contact,1,low,merge into CON-000783,CON-000783,variant=name_variant; detected_by_rules=yes
+GT-000043,contact,CON-000992,duplicate_contact,1,low,merge into CON-000014,CON-000014,variant=email_variant; detected_by_rules=yes
+GT-000044,contact,CON-000993,duplicate_contact,1,low,merge into CON-000487,CON-000487,variant=name_variant; detected_by_rules=yes
+GT-000045,contact,CON-000994,duplicate_contact,1,low,merge into CON-000253,CON-000253,variant=hard; detected_by_rules=no
+GT-000046,contact,CON-000995,duplicate_contact,1,low,merge into CON-000424,CON-000424,variant=email_variant; detected_by_rules=yes
+GT-000047,contact,CON-000996,duplicate_contact,1,low,merge into CON-000629,CON-000629,variant=email_variant; detected_by_rules=yes
+GT-000048,contact,CON-000997,duplicate_contact,1,low,merge into CON-000518,CON-000518,variant=email_variant; detected_by_rules=yes
+GT-000049,contact,CON-000998,duplicate_contact,1,low,merge into CON-000157,CON-000157,variant=email_variant; detected_by_rules=yes
+GT-000050,contact,CON-000999,duplicate_contact,1,low,merge into CON-000651,CON-000651,variant=email_variant; detected_by_rules=yes
+GT-000051,lead,LEAD-2026-000077,duplicate_lead,1,low,merge into LEAD-2026-000018,LEAD-2026-000018,planted resubmit; detected_by_rules=yes
+GT-000052,lead,LEAD-2026-000186,duplicate_lead,1,low,merge into LEAD-2026-000082,LEAD-2026-000082,planted resubmit; detected_by_rules=yes
+GT-000053,lead,LEAD-2026-000190,duplicate_lead,1,low,merge into LEAD-2026-000169,LEAD-2026-000169,planted resubmit; detected_by_rules=yes
+GT-000054,lead,LEAD-2026-000191,duplicate_lead,1,low,merge into LEAD-2026-000168,LEAD-2026-000168,planted resubmit; detected_by_rules=yes
+GT-000055,lead,LEAD-2026-000201,duplicate_lead,1,low,merge into LEAD-2026-000127,LEAD-2026-000127,planted resubmit; detected_by_rules=yes
+GT-000056,lead,LEAD-2026-000255,duplicate_lead,1,low,merge into LEAD-2026-000035,LEAD-2026-000035,planted resubmit; detected_by_rules=yes
+GT-000057,lead,LEAD-2026-000263,duplicate_lead,1,low,merge into LEAD-2026-000120,LEAD-2026-000120,planted resubmit; detected_by_rules=yes
+GT-000058,lead,LEAD-2026-000265,duplicate_lead,1,low,merge into LEAD-2026-000138,LEAD-2026-000138,planted resubmit; detected_by_rules=yes
+GT-000059,lead,LEAD-2026-000269,duplicate_lead,1,low,merge into LEAD-2026-000124,LEAD-2026-000124,planted dup_contact_lead; detected_by_rules=no
+GT-000060,lead,LEAD-2026-000292,duplicate_lead,1,low,merge into LEAD-2026-000139,LEAD-2026-000139,planted resubmit; detected_by_rules=yes
+GT-000061,lead,LEAD-2026-000306,duplicate_lead,1,low,merge into LEAD-2026-000137,LEAD-2026-000137,planted dup_contact_lead; detected_by_rules=yes
+GT-000062,lead,LEAD-2026-000307,duplicate_lead,1,low,merge into LEAD-2026-000117,LEAD-2026-000117,planted resubmit; detected_by_rules=yes
+GT-000063,lead,LEAD-2026-000311,duplicate_lead,1,low,merge into LEAD-2026-000125,LEAD-2026-000125,planted resubmit; detected_by_rules=yes
+GT-000064,lead,LEAD-2026-000317,duplicate_lead,1,low,merge into LEAD-2026-000143,LEAD-2026-000143,planted dup_contact_lead; detected_by_rules=yes
+GT-000065,lead,LEAD-2026-000331,duplicate_lead,1,low,merge into LEAD-2026-000171,LEAD-2026-000171,planted resubmit; detected_by_rules=yes
+GT-000066,lead,LEAD-2026-000337,duplicate_lead,1,low,merge into LEAD-2026-000283,LEAD-2026-000283,planted dup_contact_lead; detected_by_rules=yes
+GT-000067,lead,LEAD-2026-000339,duplicate_lead,1,low,merge into LEAD-2026-000189,LEAD-2026-000189,planted resubmit; detected_by_rules=yes
+GT-000068,lead,LEAD-2026-000363,duplicate_lead,1,low,merge into LEAD-2026-000225,LEAD-2026-000225,planted resubmit; detected_by_rules=yes
+GT-000069,lead,LEAD-2026-000366,duplicate_lead,1,low,merge into LEAD-2026-000222,LEAD-2026-000222,planted resubmit; detected_by_rules=yes
+GT-000070,lead,LEAD-2026-000370,duplicate_lead,1,low,merge into LEAD-2026-000281,LEAD-2026-000281,planted dup_contact_lead; detected_by_rules=yes
+GT-000071,lead,LEAD-2026-000382,duplicate_lead,1,low,merge into LEAD-2026-000371,LEAD-2026-000371,planted dup_contact_lead; detected_by_rules=yes
+GT-000072,lead,LEAD-2026-000384,duplicate_lead,1,low,merge into LEAD-2026-000285,LEAD-2026-000285,planted dup_contact_lead; detected_by_rules=yes
+GT-000073,lead,LEAD-2026-000385,duplicate_lead,1,low,merge into LEAD-2026-000260,LEAD-2026-000260,planted resubmit; detected_by_rules=yes
+GT-000074,lead,LEAD-2026-000408,duplicate_lead,1,low,merge into LEAD-2026-000346,LEAD-2026-000346,planted dup_contact_lead; detected_by_rules=yes
+GT-000075,lead,LEAD-2026-000411,duplicate_lead,1,low,merge into LEAD-2026-000378,LEAD-2026-000378,planted dup_contact_lead; detected_by_rules=yes
+GT-000076,lead,LEAD-2026-000412,duplicate_lead,1,low,merge into LEAD-2026-000332,LEAD-2026-000332,planted resubmit; detected_by_rules=yes
+GT-000077,lead,LEAD-2026-000419,duplicate_lead,1,low,merge into LEAD-2026-000404,LEAD-2026-000404,planted resubmit; detected_by_rules=yes
+GT-000078,lead,LEAD-2026-000421,duplicate_lead,1,low,merge into LEAD-2026-000352,LEAD-2026-000352,planted resubmit; detected_by_rules=yes
+GT-000079,lead,LEAD-2026-000455,duplicate_lead,1,low,merge into LEAD-2026-000454,LEAD-2026-000454,planted dup_contact_lead; detected_by_rules=yes
+GT-000080,lead,LEAD-2026-000502,duplicate_lead,1,low,merge into LEAD-2026-000446,LEAD-2026-000446,planted dup_contact_lead; detected_by_rules=yes
+GT-000081,lead,LEAD-2026-000566,duplicate_lead,1,low,merge into LEAD-2026-000515,LEAD-2026-000515,planted resubmit; detected_by_rules=yes
+GT-000082,lead,LEAD-2026-000575,duplicate_lead,1,low,merge into LEAD-2026-000463,LEAD-2026-000463,planted resubmit; detected_by_rules=yes
+GT-000083,lead,LEAD-2026-000592,duplicate_lead,1,low,merge into LEAD-2026-000565,LEAD-2026-000565,planted resubmit; detected_by_rules=yes
+GT-000084,lead,LEAD-2026-000616,duplicate_lead,1,low,merge into LEAD-2026-000520,LEAD-2026-000520,planted resubmit; detected_by_rules=yes
+GT-000085,lead,LEAD-2026-000626,duplicate_lead,1,low,merge into LEAD-2026-000582,LEAD-2026-000582,planted resubmit; detected_by_rules=yes
+GT-000086,lead,LEAD-2026-000640,duplicate_lead,1,low,merge into LEAD-2026-000629,LEAD-2026-000629,planted resubmit; detected_by_rules=yes
+GT-000087,lead,LEAD-2026-000671,duplicate_lead,1,low,merge into LEAD-2026-000650,LEAD-2026-000650,planted dup_contact_lead; detected_by_rules=yes
+GT-000088,lead,LEAD-2026-000684,duplicate_lead,1,low,merge into LEAD-2026-000588,LEAD-2026-000588,planted resubmit; detected_by_rules=yes
+GT-000089,lead,LEAD-2026-000693,duplicate_lead,1,low,merge into LEAD-2026-000612,LEAD-2026-000612,planted dup_contact_lead; detected_by_rules=yes
+GT-000090,lead,LEAD-2026-000705,duplicate_lead,1,low,merge into LEAD-2026-000681,LEAD-2026-000681,planted resubmit; detected_by_rules=yes
+GT-000091,lead,LEAD-2026-000706,duplicate_lead,1,low,merge into LEAD-2026-000664,LEAD-2026-000664,planted dup_contact_lead; detected_by_rules=yes
+GT-000092,lead,LEAD-2026-000723,duplicate_lead,1,low,merge into LEAD-2026-000639,LEAD-2026-000639,planted resubmit; detected_by_rules=yes
+GT-000093,lead,LEAD-2026-000748,duplicate_lead,1,low,merge into LEAD-2026-000667,LEAD-2026-000667,planted resubmit; detected_by_rules=yes
+GT-000094,lead,LEAD-2026-000750,duplicate_lead,1,low,merge into LEAD-2026-000695,LEAD-2026-000695,planted dup_contact_lead; detected_by_rules=yes
+GT-000095,lead,LEAD-2026-000843,duplicate_lead,1,low,merge into LEAD-2026-000703,LEAD-2026-000703,planted dup_contact_lead; detected_by_rules=no
+GT-000096,lead,LEAD-2026-000884,duplicate_lead,1,low,merge into LEAD-2026-000864,LEAD-2026-000864,planted resubmit; detected_by_rules=yes
+GT-000097,lead,LEAD-2026-000886,duplicate_lead,1,low,merge into LEAD-2026-000797,LEAD-2026-000797,planted resubmit; detected_by_rules=yes
+GT-000098,lead,LEAD-2026-000893,duplicate_lead,1,low,merge into LEAD-2026-000842,LEAD-2026-000842,planted resubmit; detected_by_rules=yes
+GT-000099,lead,LEAD-2026-000894,duplicate_lead,1,low,merge into LEAD-2026-000816,LEAD-2026-000816,planted resubmit; detected_by_rules=yes
+GT-000100,lead,LEAD-2026-000943,duplicate_lead,1,low,merge into LEAD-2026-000833,LEAD-2026-000833,planted dup_contact_lead; detected_by_rules=yes
+GT-000101,lead,LEAD-2026-000970,duplicate_lead,1,low,merge into LEAD-2026-000788,LEAD-2026-000788,planted resubmit; detected_by_rules=yes
+GT-000102,lead,LEAD-2026-001005,duplicate_lead,1,low,merge into LEAD-2026-000979,LEAD-2026-000979,planted resubmit; detected_by_rules=yes
+GT-000103,lead,LEAD-2026-001006,duplicate_lead,1,low,merge into LEAD-2026-000760,LEAD-2026-000760,planted resubmit; detected_by_rules=yes
+GT-000104,lead,LEAD-2026-001010,duplicate_lead,1,low,merge into LEAD-2026-000985,LEAD-2026-000985,planted dup_contact_lead; detected_by_rules=no
+GT-000105,lead,LEAD-2026-001013,duplicate_lead,1,low,merge into LEAD-2026-001009,LEAD-2026-001009,planted resubmit; detected_by_rules=yes
+GT-000106,lead,LEAD-2026-001040,duplicate_lead,1,low,merge into LEAD-2026-000770,LEAD-2026-000770,planted resubmit; detected_by_rules=yes
+GT-000107,lead,LEAD-2026-001048,duplicate_lead,1,low,merge into LEAD-2026-000818,LEAD-2026-000818,planted dup_contact_lead; detected_by_rules=yes
+GT-000108,lead,LEAD-2026-001049,duplicate_lead,1,low,merge into LEAD-2026-001018,LEAD-2026-001018,planted dup_contact_lead; detected_by_rules=yes
+GT-000109,lead,LEAD-2026-001062,duplicate_lead,1,low,merge into LEAD-2026-000932,LEAD-2026-000932,planted resubmit; detected_by_rules=yes
+GT-000110,lead,LEAD-2026-001067,duplicate_lead,1,low,merge into LEAD-2026-000783,LEAD-2026-000783,planted resubmit; detected_by_rules=yes
+GT-000111,lead,LEAD-2026-001170,duplicate_lead,1,low,merge into LEAD-2026-001104,LEAD-2026-001104,planted resubmit; detected_by_rules=yes
+GT-000112,lead,LEAD-2026-001193,duplicate_lead,1,low,merge into LEAD-2026-000824,LEAD-2026-000824,planted dup_contact_lead; detected_by_rules=no
+GT-000113,lead,LEAD-2026-001199,duplicate_lead,1,low,merge into LEAD-2026-001025,LEAD-2026-001025,planted dup_contact_lead; detected_by_rules=yes
+GT-000114,lead,LEAD-2026-001395,duplicate_lead,1,low,merge into LEAD-2026-001336,LEAD-2026-001336,planted dup_contact_lead; detected_by_rules=yes
+GT-000115,lead,LEAD-2026-001416,duplicate_lead,1,low,merge into LEAD-2026-001072,LEAD-2026-001072,planted dup_contact_lead; detected_by_rules=yes
+GT-000116,lead,LEAD-2026-001474,duplicate_lead,1,low,merge into LEAD-2026-001225,LEAD-2026-001225,planted resubmit; detected_by_rules=yes
+GT-000117,lead,LEAD-2026-001493,duplicate_lead,1,low,merge into LEAD-2026-001047,LEAD-2026-001047,planted dup_contact_lead; detected_by_rules=yes
+GT-000118,lead,LEAD-2026-001521,duplicate_lead,1,low,merge into LEAD-2026-001403,LEAD-2026-001403,planted resubmit; detected_by_rules=yes
+GT-000119,lead,LEAD-2026-001522,duplicate_lead,1,low,merge into LEAD-2026-001093,LEAD-2026-001093,planted dup_contact_lead; detected_by_rules=yes
+GT-000120,lead,LEAD-2026-001526,duplicate_lead,1,low,merge into LEAD-2026-000940,LEAD-2026-000940,planted resubmit; detected_by_rules=yes
+GT-000121,lead,LEAD-2026-001530,duplicate_lead,1,low,merge into LEAD-2026-001315,LEAD-2026-001315,planted dup_contact_lead; detected_by_rules=yes
+GT-000122,lead,LEAD-2026-001543,duplicate_lead,1,low,merge into LEAD-2026-001539,LEAD-2026-001539,planted resubmit; detected_by_rules=yes
+GT-000123,lead,LEAD-2026-001578,duplicate_lead,1,low,merge into LEAD-2026-001389,LEAD-2026-001389,planted dup_contact_lead; detected_by_rules=yes
+GT-000124,lead,LEAD-2026-001584,duplicate_lead,1,low,merge into LEAD-2026-001173,LEAD-2026-001173,planted resubmit; detected_by_rules=yes
+GT-000125,lead,LEAD-2026-001635,duplicate_lead,1,low,merge into LEAD-2026-001595,LEAD-2026-001595,planted dup_contact_lead; detected_by_rules=yes
+GT-000126,lead,LEAD-2026-001739,duplicate_lead,1,low,merge into LEAD-2026-001664,LEAD-2026-001664,planted dup_contact_lead; detected_by_rules=yes
+GT-000127,lead,LEAD-2026-001747,duplicate_lead,1,low,merge into LEAD-2026-001283,LEAD-2026-001283,planted dup_contact_lead; detected_by_rules=yes
+GT-000128,lead,LEAD-2026-001750,duplicate_lead,1,low,merge into LEAD-2026-001683,LEAD-2026-001683,planted resubmit; detected_by_rules=yes
+GT-000129,lead,LEAD-2026-001752,duplicate_lead,1,low,merge into LEAD-2026-001305,LEAD-2026-001305,planted dup_contact_lead; detected_by_rules=yes
+GT-000130,lead,LEAD-2026-001789,duplicate_lead,1,low,merge into LEAD-2026-001059,LEAD-2026-001059,planted resubmit; detected_by_rules=yes
+GT-000131,lead,LEAD-2026-001808,duplicate_lead,1,low,merge into LEAD-2026-001423,LEAD-2026-001423,planted resubmit; detected_by_rules=yes
+GT-000132,lead,LEAD-2026-001817,duplicate_lead,1,low,merge into LEAD-2026-001697,LEAD-2026-001697,planted resubmit; detected_by_rules=yes
+GT-000133,lead,LEAD-2026-001818,duplicate_lead,1,low,merge into LEAD-2026-001758,LEAD-2026-001758,planted resubmit; detected_by_rules=yes
+GT-000134,lead,LEAD-2026-001819,duplicate_lead,1,low,merge into LEAD-2026-001337,LEAD-2026-001337,planted dup_contact_lead; detected_by_rules=yes
+GT-000135,lead,LEAD-2026-001870,duplicate_lead,1,low,merge into LEAD-2026-001857,LEAD-2026-001857,planted dup_contact_lead; detected_by_rules=yes
+GT-000136,lead,LEAD-2026-001891,duplicate_lead,1,low,merge into LEAD-2026-001317,LEAD-2026-001317,planted dup_contact_lead; detected_by_rules=yes
+GT-000137,lead,LEAD-2026-001895,duplicate_lead,1,low,merge into LEAD-2026-001251,LEAD-2026-001251,planted resubmit; detected_by_rules=yes
+GT-000138,lead,LEAD-2026-001896,duplicate_lead,1,low,merge into LEAD-2026-001356,LEAD-2026-001356,planted resubmit; detected_by_rules=yes
+GT-000139,lead,LEAD-2026-001899,duplicate_lead,1,low,merge into LEAD-2026-001599,LEAD-2026-001599,planted dup_contact_lead; detected_by_rules=yes
+GT-000140,lead,LEAD-2026-001903,duplicate_lead,1,low,merge into LEAD-2026-001210,LEAD-2026-001210,planted resubmit; detected_by_rules=yes
+GT-000141,lead,LEAD-2026-001904,duplicate_lead,1,low,merge into LEAD-2026-001672,LEAD-2026-001672,planted dup_contact_lead; detected_by_rules=yes
+GT-000142,lead,LEAD-2026-001905,duplicate_lead,1,low,merge into LEAD-2026-001649,LEAD-2026-001649,planted resubmit; detected_by_rules=yes
+GT-000143,lead,LEAD-2026-001906,duplicate_lead,1,low,merge into LEAD-2026-001278,LEAD-2026-001278,planted resubmit; detected_by_rules=yes
+GT-000144,lead,LEAD-2026-001908,duplicate_lead,1,low,merge into LEAD-2026-001841,LEAD-2026-001841,planted dup_contact_lead; detected_by_rules=yes
+GT-000145,lead,LEAD-2026-001910,duplicate_lead,1,low,merge into LEAD-2026-001628,LEAD-2026-001628,planted dup_contact_lead; detected_by_rules=yes
+GT-000146,lead,LEAD-2026-001911,duplicate_lead,1,low,merge into LEAD-2026-001103,LEAD-2026-001103,planted resubmit; detected_by_rules=yes
+GT-000147,lead,LEAD-2026-001914,duplicate_lead,1,low,merge into LEAD-2026-001504,LEAD-2026-001504,planted resubmit; detected_by_rules=yes
+GT-000148,lead,LEAD-2026-001924,duplicate_lead,1,low,merge into LEAD-2026-001724,LEAD-2026-001724,planted dup_contact_lead; detected_by_rules=no
+GT-000149,lead,LEAD-2026-001925,duplicate_lead,1,low,merge into LEAD-2026-001430,LEAD-2026-001430,planted dup_contact_lead; detected_by_rules=no
+GT-000150,lead,LEAD-2026-001926,duplicate_lead,1,low,merge into LEAD-2026-001176,LEAD-2026-001176,planted dup_contact_lead; detected_by_rules=yes
+GT-000151,lead,LEAD-2026-001927,duplicate_lead,1,low,merge into LEAD-2026-001689,LEAD-2026-001689,planted dup_contact_lead; detected_by_rules=yes
+GT-000152,lead,LEAD-2026-001929,duplicate_lead,1,low,merge into LEAD-2026-001711,LEAD-2026-001711,planted resubmit; detected_by_rules=yes
+GT-000153,lead,LEAD-2026-001930,duplicate_lead,1,low,merge into LEAD-2026-001165,LEAD-2026-001165,planted resubmit; detected_by_rules=yes
+GT-000154,lead,LEAD-2026-001931,duplicate_lead,1,low,merge into LEAD-2026-001743,LEAD-2026-001743,planted dup_contact_lead; detected_by_rules=yes
+GT-000155,lead,LEAD-2026-001932,duplicate_lead,1,low,merge into LEAD-2026-001207,LEAD-2026-001207,planted dup_contact_lead; detected_by_rules=yes
+GT-000156,lead,LEAD-2026-001933,duplicate_lead,1,low,merge into LEAD-2026-001451,LEAD-2026-001451,planted resubmit; detected_by_rules=yes
+GT-000157,lead,LEAD-2026-001936,duplicate_lead,1,low,merge into LEAD-2026-001141,LEAD-2026-001141,planted resubmit; detected_by_rules=yes
+GT-000158,lead,LEAD-2026-001937,duplicate_lead,1,low,merge into LEAD-2026-001834,LEAD-2026-001834,planted dup_contact_lead; detected_by_rules=yes
+GT-000159,lead,LEAD-2026-001938,duplicate_lead,1,low,merge into LEAD-2026-001194,LEAD-2026-001194,planted resubmit; detected_by_rules=yes
+GT-000160,lead,LEAD-2026-001939,duplicate_lead,1,low,merge into LEAD-2026-001417,LEAD-2026-001417,planted dup_contact_lead; detected_by_rules=yes
+GT-000161,lead,LEAD-2026-001940,duplicate_lead,1,low,merge into LEAD-2026-001566,LEAD-2026-001566,planted resubmit; detected_by_rules=yes
+GT-000162,lead,LEAD-2026-001941,duplicate_lead,1,low,merge into LEAD-2026-001821,LEAD-2026-001821,planted dup_contact_lead; detected_by_rules=yes
+GT-000163,lead,LEAD-2026-001946,duplicate_lead,1,low,merge into LEAD-2026-001547,LEAD-2026-001547,planted resubmit; detected_by_rules=yes
+GT-000164,lead,LEAD-2026-001949,duplicate_lead,1,low,merge into LEAD-2026-001746,LEAD-2026-001746,planted dup_contact_lead; detected_by_rules=yes
+GT-000165,lead,LEAD-2026-001950,duplicate_lead,1,low,merge into LEAD-2026-001630,LEAD-2026-001630,planted resubmit; detected_by_rules=yes
+GT-000166,lead,LEAD-2026-001952,duplicate_lead,1,low,merge into LEAD-2026-001614,LEAD-2026-001614,planted resubmit; detected_by_rules=yes
+GT-000167,lead,LEAD-2026-001955,duplicate_lead,1,low,merge into LEAD-2026-001801,LEAD-2026-001801,planted dup_contact_lead; detected_by_rules=yes
+GT-000168,lead,LEAD-2026-001956,duplicate_lead,1,low,merge into LEAD-2026-001942,LEAD-2026-001942,planted resubmit; detected_by_rules=yes
+GT-000169,lead,LEAD-2026-001959,duplicate_lead,1,low,merge into LEAD-2026-001915,LEAD-2026-001915,planted resubmit; detected_by_rules=yes
+GT-000170,lead,LEAD-2026-001968,duplicate_lead,1,low,merge into LEAD-2026-001799,LEAD-2026-001799,planted resubmit; detected_by_rules=yes
+GT-000171,opportunity,OPP-2026-000087,duplicate_opportunity,1,high,merge into canonical opportunity / block second opportunity,OPP-2026-000081,duplicate lead LEAD-2026-000575 of LEAD-2026-000463 converted to a second opportunity
+GT-000172,opportunity,OPP-2026-000097,duplicate_opportunity,1,high,merge into canonical opportunity / block second opportunity,OPP-2026-000092,duplicate lead LEAD-2026-000626 of LEAD-2026-000582 converted to a second opportunity
+GT-000173,opportunity,OPP-2026-000222,duplicate_opportunity,1,high,merge into canonical opportunity / block second opportunity,OPP-2026-000219,duplicate lead LEAD-2026-001817 of LEAD-2026-001697 converted to a second opportunity
+GT-000174,opportunity,OPP-2026-000274,duplicate_opportunity,1,high,merge into canonical opportunity / block second opportunity,OPP-2026-000146,duplicate lead LEAD-2026-001752 of LEAD-2026-001305 converted to a second opportunity
+GT-000175,lead,LEAD-2026-000086,high_score_non_converter,0,info,investigate: slow_first_response,,score 73 (Hot) did not convert after 261 days; driver=slow_first_response
+GT-000176,lead,LEAD-2026-000153,high_score_non_converter,0,info,investigate: slow_first_response,,score 70 (Hot) did not convert after 254 days; driver=slow_first_response
+GT-000177,lead,LEAD-2026-000201,high_score_non_converter,0,info,investigate: merged_duplicate,,score 72 (Hot) did not convert after 248 days; driver=merged_duplicate
+GT-000178,lead,LEAD-2026-000220,high_score_non_converter,0,info,investigate: went_cold,,score 74 (Hot) did not convert after 246 days; driver=went_cold
+GT-000179,lead,LEAD-2026-000261,high_score_non_converter,0,info,investigate: slow_first_response,,score 75 (Hot) did not convert after 241 days; driver=slow_first_response
+GT-000180,lead,LEAD-2026-000272,high_score_non_converter,0,info,investigate: slow_first_response,,score 78 (Hot) did not convert after 240 days; driver=slow_first_response
+GT-000181,lead,LEAD-2026-000306,high_score_non_converter,0,info,investigate: consent_blocked,,score 75 (Hot) did not convert after 233 days; driver=consent_blocked
+GT-000182,lead,LEAD-2026-000326,high_score_non_converter,0,info,investigate: slow_first_response,,score 72 (Hot) did not convert after 227 days; driver=slow_first_response
+GT-000183,lead,LEAD-2026-000350,high_score_non_converter,0,info,investigate: still_open,,score 74 (Hot) did not convert after 223 days; driver=still_open
+GT-000184,lead,LEAD-2026-000362,high_score_non_converter,0,info,investigate: still_open,,score 70 (Hot) did not convert after 219 days; driver=still_open
+GT-000185,lead,LEAD-2026-000365,high_score_non_converter,0,info,investigate: went_cold,,score 79 (Hot) did not convert after 219 days; driver=went_cold
+GT-000186,lead,LEAD-2026-000385,high_score_non_converter,0,info,investigate: merged_duplicate,,score 72 (Hot) did not convert after 214 days; driver=merged_duplicate
+GT-000187,lead,LEAD-2026-000404,high_score_non_converter,0,info,investigate: went_cold,,score 75 (Hot) did not convert after 205 days; driver=went_cold
+GT-000188,lead,LEAD-2026-000412,high_score_non_converter,0,info,investigate: merged_duplicate,,score 71 (Hot) did not convert after 199 days; driver=merged_duplicate
+GT-000189,lead,LEAD-2026-000465,high_score_non_converter,0,info,investigate: disqualified_competitor,,score 79 (Hot) did not convert after 161 days; driver=disqualified_competitor
+GT-000190,lead,LEAD-2026-000508,high_score_non_converter,0,info,investigate: still_open,,score 70 (Hot) did not convert after 148 days; driver=still_open
+GT-000191,lead,LEAD-2026-000518,high_score_non_converter,0,info,investigate: still_open,,score 71 (Hot) did not convert after 146 days; driver=still_open
+GT-000192,lead,LEAD-2026-000524,high_score_non_converter,0,info,investigate: still_open,,score 72 (Hot) did not convert after 145 days; driver=still_open
+GT-000193,lead,LEAD-2026-000527,high_score_non_converter,0,info,investigate: disqualified_not_a_fit,,score 70 (Hot) did not convert after 144 days; driver=disqualified_not_a_fit
+GT-000194,lead,LEAD-2026-000559,high_score_non_converter,0,info,investigate: still_open,,score 70 (Hot) did not convert after 140 days; driver=still_open
+GT-000195,lead,LEAD-2026-000592,high_score_non_converter,0,info,investigate: merged_duplicate,,score 77 (Hot) did not convert after 129 days; driver=merged_duplicate
+GT-000196,lead,LEAD-2026-000637,high_score_non_converter,0,info,investigate: went_cold,,score 77 (Hot) did not convert after 117 days; driver=went_cold
+GT-000197,lead,LEAD-2026-000680,high_score_non_converter,0,info,investigate: slow_first_response,,score 81 (Hot) did not convert after 107 days; driver=slow_first_response
+GT-000198,lead,LEAD-2026-000717,high_score_non_converter,0,info,investigate: slow_first_response,,score 73 (Hot) did not convert after 94 days; driver=slow_first_response
+GT-000199,lead,LEAD-2026-000723,high_score_non_converter,0,info,investigate: merged_duplicate,,score 71 (Hot) did not convert after 94 days; driver=merged_duplicate
+GT-000200,lead,LEAD-2026-000807,high_score_non_converter,0,info,investigate: slow_first_response,,score 74 (Hot) did not convert after 84 days; driver=slow_first_response
+GT-000201,lead,LEAD-2026-000893,high_score_non_converter,0,info,investigate: merged_duplicate,,score 83 (Hot) did not convert after 77 days; driver=merged_duplicate
+GT-000202,lead,LEAD-2026-000909,high_score_non_converter,0,info,investigate: slow_first_response,,score 77 (Hot) did not convert after 77 days; driver=slow_first_response
+GT-000203,lead,LEAD-2026-001058,high_score_non_converter,0,info,investigate: still_open,,score 75 (Hot) did not convert after 64 days; driver=still_open
+GT-000204,lead,LEAD-2026-001089,high_score_non_converter,0,info,investigate: consent_blocked,,score 75 (Hot) did not convert after 62 days; driver=consent_blocked
+GT-000205,lead,LEAD-2026-001093,high_score_non_converter,0,info,investigate: slow_first_response,,score 77 (Hot) did not convert after 62 days; driver=slow_first_response
+GT-000206,lead,LEAD-2026-001121,high_score_non_converter,0,info,investigate: consent_blocked,,score 74 (Hot) did not convert after 62 days; driver=consent_blocked
+GT-000207,lead,LEAD-2026-001155,high_score_non_converter,0,info,investigate: slow_first_response,,score 79 (Hot) did not convert after 61 days; driver=slow_first_response
+GT-000208,lead,LEAD-2026-001186,high_score_non_converter,0,info,investigate: still_open,,score 83 (Hot) did not convert after 60 days; driver=still_open
+GT-000209,lead,LEAD-2026-001195,high_score_non_converter,0,info,investigate: still_open,,score 84 (Hot) did not convert after 59 days; driver=still_open
+GT-000210,lead,LEAD-2026-001199,high_score_non_converter,0,info,investigate: merged_duplicate,,score 85 (Hot) did not convert after 59 days; driver=merged_duplicate
+GT-000211,lead,LEAD-2026-001202,high_score_non_converter,0,info,investigate: slow_first_response,,score 77 (Hot) did not convert after 59 days; driver=slow_first_response
+GT-000212,lead,LEAD-2026-001209,high_score_non_converter,0,info,investigate: slow_first_response,,score 82 (Hot) did not convert after 59 days; driver=slow_first_response
+GT-000213,lead,LEAD-2026-001224,high_score_non_converter,0,info,investigate: slow_first_response,,score 77 (Hot) did not convert after 59 days; driver=slow_first_response
+GT-000214,lead,LEAD-2026-001227,high_score_non_converter,0,info,investigate: still_open,,score 74 (Hot) did not convert after 59 days; driver=still_open
+GT-000215,lead,LEAD-2026-001238,high_score_non_converter,0,info,investigate: slow_first_response,,score 72 (Hot) did not convert after 59 days; driver=slow_first_response
+GT-000216,lead,LEAD-2026-001251,high_score_non_converter,0,info,investigate: slow_first_response,,score 73 (Hot) did not convert after 59 days; driver=slow_first_response
+GT-000217,lead,LEAD-2026-001257,high_score_non_converter,0,info,investigate: still_open,,score 77 (Hot) did not convert after 59 days; driver=still_open
+GT-000218,lead,LEAD-2026-001279,high_score_non_converter,0,info,investigate: slow_first_response,,score 85 (Hot) did not convert after 58 days; driver=slow_first_response
+GT-000219,lead,LEAD-2026-001300,high_score_non_converter,0,info,investigate: slow_first_response,,score 70 (Hot) did not convert after 58 days; driver=slow_first_response
+GT-000220,lead,LEAD-2026-001332,high_score_non_converter,0,info,investigate: slow_first_response,,score 78 (Hot) did not convert after 57 days; driver=slow_first_response
+GT-000221,lead,LEAD-2026-001340,high_score_non_converter,0,info,investigate: slow_first_response,,score 73 (Hot) did not convert after 57 days; driver=slow_first_response
+GT-000222,lead,LEAD-2026-001342,high_score_non_converter,0,info,investigate: still_open,,score 82 (Hot) did not convert after 57 days; driver=still_open
+GT-000223,lead,LEAD-2026-001349,high_score_non_converter,0,info,investigate: disqualified_competitor,,score 76 (Hot) did not convert after 57 days; driver=disqualified_competitor
+GT-000224,lead,LEAD-2026-001352,high_score_non_converter,0,info,investigate: slow_first_response,,score 79 (Hot) did not convert after 57 days; driver=slow_first_response
+GT-000225,lead,LEAD-2026-001364,high_score_non_converter,0,info,investigate: still_open,,score 78 (Hot) did not convert after 57 days; driver=still_open
+GT-000226,lead,LEAD-2026-001401,high_score_non_converter,0,info,investigate: slow_first_response,,score 70 (Hot) did not convert after 56 days; driver=slow_first_response
+GT-000227,lead,LEAD-2026-001402,high_score_non_converter,0,info,investigate: still_open,,score 78 (Hot) did not convert after 56 days; driver=still_open
+GT-000228,lead,LEAD-2026-001421,high_score_non_converter,0,info,investigate: still_open,,score 71 (Hot) did not convert after 56 days; driver=still_open
+GT-000229,lead,LEAD-2026-001431,high_score_non_converter,0,info,investigate: slow_first_response,,score 75 (Hot) did not convert after 56 days; driver=slow_first_response
+GT-000230,lead,LEAD-2026-001433,high_score_non_converter,0,info,investigate: still_open,,score 80 (Hot) did not convert after 56 days; driver=still_open
+GT-000231,lead,LEAD-2026-001449,high_score_non_converter,0,info,investigate: disqualified_no_budget,,score 72 (Hot) did not convert after 55 days; driver=disqualified_no_budget
+GT-000232,lead,LEAD-2026-001451,high_score_non_converter,0,info,investigate: consent_blocked,,score 73 (Hot) did not convert after 55 days; driver=consent_blocked
+GT-000233,lead,LEAD-2026-001480,high_score_non_converter,0,info,investigate: still_open,,score 78 (Hot) did not convert after 55 days; driver=still_open
+GT-000234,lead,LEAD-2026-001481,high_score_non_converter,0,info,investigate: disqualified_competitor,,score 71 (Hot) did not convert after 55 days; driver=disqualified_competitor
+GT-000235,lead,LEAD-2026-001486,high_score_non_converter,0,info,investigate: unroutable,,score 73 (Hot) did not convert after 55 days; driver=unroutable
+GT-000236,lead,LEAD-2026-001487,high_score_non_converter,0,info,investigate: slow_first_response,,score 83 (Hot) did not convert after 55 days; driver=slow_first_response
+GT-000237,lead,LEAD-2026-001510,high_score_non_converter,0,info,investigate: slow_first_response,,score 74 (Hot) did not convert after 54 days; driver=slow_first_response
+GT-000238,lead,LEAD-2026-001511,high_score_non_converter,0,info,investigate: slow_first_response,,score 75 (Hot) did not convert after 54 days; driver=slow_first_response
+GT-000239,lead,LEAD-2026-001512,high_score_non_converter,0,info,investigate: still_open,,score 70 (Hot) did not convert after 54 days; driver=still_open
+GT-000240,lead,LEAD-2026-001518,high_score_non_converter,0,info,investigate: still_open,,score 71 (Hot) did not convert after 54 days; driver=still_open
+GT-000241,lead,LEAD-2026-001527,high_score_non_converter,0,info,investigate: slow_first_response,,score 73 (Hot) did not convert after 54 days; driver=slow_first_response
+GT-000242,lead,LEAD-2026-001532,high_score_non_converter,0,info,investigate: slow_first_response,,score 84 (Hot) did not convert after 53 days; driver=slow_first_response
+GT-000243,lead,LEAD-2026-001538,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 53 days; driver=slow_first_response
+GT-000244,lead,LEAD-2026-001544,high_score_non_converter,0,info,investigate: slow_first_response,,score 70 (Hot) did not convert after 52 days; driver=slow_first_response
+GT-000245,lead,LEAD-2026-001554,high_score_non_converter,0,info,investigate: still_open,,score 80 (Hot) did not convert after 52 days; driver=still_open
+GT-000246,lead,LEAD-2026-001555,high_score_non_converter,0,info,investigate: still_open,,score 86 (Hot) did not convert after 52 days; driver=still_open
+GT-000247,lead,LEAD-2026-001575,high_score_non_converter,0,info,investigate: still_open,,score 78 (Hot) did not convert after 52 days; driver=still_open
+GT-000248,lead,LEAD-2026-001578,high_score_non_converter,0,info,investigate: merged_duplicate,,score 70 (Hot) did not convert after 52 days; driver=merged_duplicate
+GT-000249,lead,LEAD-2026-001579,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 52 days; driver=slow_first_response
+GT-000250,lead,LEAD-2026-001616,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 51 days; driver=slow_first_response
+GT-000251,lead,LEAD-2026-001617,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 51 days; driver=slow_first_response
+GT-000252,lead,LEAD-2026-001626,high_score_non_converter,0,info,investigate: slow_first_response,,score 70 (Hot) did not convert after 51 days; driver=slow_first_response
+GT-000253,lead,LEAD-2026-001658,high_score_non_converter,0,info,investigate: slow_first_response,,score 75 (Hot) did not convert after 50 days; driver=slow_first_response
+GT-000254,lead,LEAD-2026-001661,high_score_non_converter,0,info,investigate: slow_first_response,,score 74 (Hot) did not convert after 50 days; driver=slow_first_response
+GT-000255,lead,LEAD-2026-001675,high_score_non_converter,0,info,investigate: still_open,,score 73 (Hot) did not convert after 50 days; driver=still_open
+GT-000256,lead,LEAD-2026-001690,high_score_non_converter,0,info,investigate: still_open,,score 73 (Hot) did not convert after 49 days; driver=still_open
+GT-000257,lead,LEAD-2026-001699,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 49 days; driver=slow_first_response
+GT-000258,lead,LEAD-2026-001719,high_score_non_converter,0,info,investigate: still_open,,score 75 (Hot) did not convert after 49 days; driver=still_open
+GT-000259,lead,LEAD-2026-001723,high_score_non_converter,0,info,investigate: slow_first_response,,score 79 (Hot) did not convert after 49 days; driver=slow_first_response
+GT-000260,lead,LEAD-2026-001727,high_score_non_converter,0,info,investigate: slow_first_response,,score 77 (Hot) did not convert after 49 days; driver=slow_first_response
+GT-000261,lead,LEAD-2026-001735,high_score_non_converter,0,info,investigate: slow_first_response,,score 70 (Hot) did not convert after 49 days; driver=slow_first_response
+GT-000262,lead,LEAD-2026-001762,high_score_non_converter,0,info,investigate: still_open,,score 71 (Hot) did not convert after 48 days; driver=still_open
+GT-000263,lead,LEAD-2026-001768,high_score_non_converter,0,info,investigate: still_open,,score 73 (Hot) did not convert after 48 days; driver=still_open
+GT-000264,lead,LEAD-2026-001770,high_score_non_converter,0,info,investigate: slow_first_response,,score 81 (Hot) did not convert after 48 days; driver=slow_first_response
+GT-000265,lead,LEAD-2026-001789,high_score_non_converter,0,info,investigate: merged_duplicate,,score 72 (Hot) did not convert after 48 days; driver=merged_duplicate
+GT-000266,lead,LEAD-2026-001796,high_score_non_converter,0,info,investigate: slow_first_response,,score 75 (Hot) did not convert after 48 days; driver=slow_first_response
+GT-000267,lead,LEAD-2026-001798,high_score_non_converter,0,info,investigate: slow_first_response,,score 81 (Hot) did not convert after 48 days; driver=slow_first_response
+GT-000268,lead,LEAD-2026-001799,high_score_non_converter,0,info,investigate: slow_first_response,,score 75 (Hot) did not convert after 48 days; driver=slow_first_response
+GT-000269,lead,LEAD-2026-001815,high_score_non_converter,0,info,investigate: still_open,,score 73 (Hot) did not convert after 47 days; driver=still_open
+GT-000270,lead,LEAD-2026-001822,high_score_non_converter,0,info,investigate: still_open,,score 72 (Hot) did not convert after 46 days; driver=still_open
+GT-000271,lead,LEAD-2026-001843,high_score_non_converter,0,info,investigate: consent_blocked,,score 76 (Hot) did not convert after 45 days; driver=consent_blocked
+GT-000272,lead,LEAD-2026-001846,high_score_non_converter,0,info,investigate: still_open,,score 86 (Hot) did not convert after 45 days; driver=still_open
+GT-000273,lead,LEAD-2026-001863,high_score_non_converter,0,info,investigate: still_open,,score 85 (Hot) did not convert after 45 days; driver=still_open
+GT-000274,lead,LEAD-2026-001871,high_score_non_converter,0,info,investigate: slow_first_response,,score 80 (Hot) did not convert after 45 days; driver=slow_first_response
+GT-000275,lead,LEAD-2026-001880,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 45 days; driver=slow_first_response
+GT-000276,lead,LEAD-2026-001886,high_score_non_converter,0,info,investigate: slow_first_response,,score 74 (Hot) did not convert after 45 days; driver=slow_first_response
+GT-000277,lead,LEAD-2026-001890,high_score_non_converter,0,info,investigate: slow_first_response,,score 76 (Hot) did not convert after 45 days; driver=slow_first_response
+GT-000278,lead,LEAD-2026-000020,lead_outside_territory,1,medium,re-route to a EMEA rep covering Automation,REP-012,"assigned to REP-008 (NA-West), lead territory EMEA"
+GT-000279,lead,LEAD-2026-000180,lead_outside_territory,1,medium,re-route to a APAC rep covering Collaboration,REP-015,"assigned to REP-010 (EMEA), lead territory APAC"
+GT-000280,lead,LEAD-2026-000271,lead_outside_territory,1,medium,re-route to a EMEA rep covering Security,REP-010,"assigned to REP-003 (NA-East), lead territory EMEA"
+GT-000281,lead,LEAD-2026-000286,lead_outside_territory,1,medium,re-route to a EMEA rep covering Automation,REP-012,"assigned to REP-014 (APAC), lead territory EMEA"
+GT-000282,lead,LEAD-2026-000344,lead_outside_territory,1,medium,re-route to a APAC rep covering Automation,REP-016,"assigned to REP-019 (LATAM), lead territory APAC"
+GT-000283,lead,LEAD-2026-000732,lead_outside_territory,1,medium,re-route to a NA-West rep covering Collaboration,REP-007,"assigned to REP-018 (LATAM), lead territory NA-West"
+GT-000284,lead,LEAD-2026-000743,lead_outside_territory,1,medium,re-route to a APAC rep covering Automation,REP-016,"assigned to REP-011 (EMEA), lead territory APAC"
+GT-000285,lead,LEAD-2026-001514,lead_outside_territory,1,medium,re-route to a NA-West rep covering Automation,REP-007,"assigned to REP-019 (LATAM), lead territory NA-West"
+GT-000286,lead,LEAD-2026-001576,lead_outside_territory,1,medium,re-route to a APAC rep covering Analytics,REP-016,"assigned to REP-012 (EMEA), lead territory APAC"
+GT-000287,lead,LEAD-2026-001609,lead_outside_territory,1,medium,re-route to a NA-West rep covering Collaboration,REP-007,"assigned to REP-018 (LATAM), lead territory NA-West"
+GT-000288,activity,ACT-LEAD-2026-000026-010,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-000026,email_outbound sent after opt-out
+GT-000289,activity,ACT-LEAD-2026-000482-018,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-000482,email_outbound sent after opt-out
+GT-000290,activity,ACT-LEAD-2026-000688-011,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-000688,email_outbound sent after opt-out
+GT-000291,activity,ACT-LEAD-2026-000855-018,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-000855,email_outbound sent after opt-out
+GT-000292,activity,ACT-LEAD-2026-001089-018,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001089,email_outbound sent after opt-out
+GT-000293,activity,ACT-LEAD-2026-001104-011,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001104,call_outbound sent after opt-out
+GT-000294,activity,ACT-LEAD-2026-001290-013,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001290,call_outbound sent after opt-out
+GT-000295,activity,ACT-LEAD-2026-001294-016,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001294,call_outbound sent after opt-out
+GT-000296,activity,ACT-LEAD-2026-001345-016,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001345,email_outbound sent after opt-out
+GT-000297,activity,ACT-LEAD-2026-001382-013,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001382,email_outbound sent after opt-out
+GT-000298,activity,ACT-LEAD-2026-001506-019,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001506,call_outbound sent after opt-out
+GT-000299,activity,ACT-LEAD-2026-001843-019,opted_out_contacted,1,high,block outreach: contact had opted out before this touch,LEAD-2026-001843,email_outbound sent after opt-out
+GT-000300,lead,LEAD-2026-000189,score_post_conversion,1,high,recompute score with cut-off <= converted_ts,,stored score 67 vs clean 49; scored 2026-02-27T16:37:15.478378 after conversion 2026-02-26T08:35:37.876319
+GT-000301,lead,LEAD-2026-000441,score_post_conversion,1,high,recompute score with cut-off <= converted_ts,,stored score 59 vs clean 36; scored 2026-05-06T12:27:31.136511 after conversion 2026-05-05T03:01:30.985783
+GT-000302,lead,LEAD-2026-000811,score_post_conversion,1,high,recompute score with cut-off <= converted_ts,,stored score 53 vs clean 40; scored 2026-08-09T18:25:27.386080 after conversion 2026-08-08T11:58:50.572144
+GT-000303,lead,LEAD-2026-001353,score_post_conversion,1,high,recompute score with cut-off <= converted_ts,,stored score 52 vs clean 40; scored 2026-09-06T16:30:22.190669 after conversion 2026-09-05T02:03:51.933657
+GT-000304,lead,LEAD-2026-001471,score_post_conversion,1,high,recompute score with cut-off <= converted_ts,,stored score 88 vs clean 72; scored 2026-09-05T13:44:49.215008 after conversion 2026-09-02T23:18:20.056693
+GT-000305,lead,LEAD-2026-001893,score_post_conversion,1,high,recompute score with cut-off <= converted_ts,,stored score 60 vs clean 35; scored 2026-09-19T03:35:43.061204 after conversion 2026-09-16T11:26:09.352385
+GT-000306,opportunity,OPP-2026-000027,stage_history_gap,1,medium,restore missing transition Qualified -> Discovery,SH-OPP-2026-000027-02,history row SH-OPP-2026-000027-02 missing: chain is broken
+GT-000307,opportunity,OPP-2026-000039,stage_history_gap,1,medium,restore missing transition Proposal -> Negotiation,SH-OPP-2026-000039-04,history row SH-OPP-2026-000039-04 missing: chain is broken
+GT-000308,opportunity,OPP-2026-000070,stage_history_gap,1,medium,restore missing transition Qualified -> Discovery,SH-OPP-2026-000070-02,history row SH-OPP-2026-000070-02 missing: chain is broken
+GT-000309,opportunity,OPP-2026-000093,stage_history_gap,1,medium,restore missing transition Qualified -> Discovery,SH-OPP-2026-000093-02,history row SH-OPP-2026-000093-02 missing: chain is broken
+GT-000310,opportunity,OPP-2026-000124,stage_history_gap,1,medium,restore missing transition Discovery -> Proposal,SH-OPP-2026-000124-03,history row SH-OPP-2026-000124-03 missing: chain is broken
+GT-000311,lead,LEAD-2026-000003,stale_lead,0,info,re-engage or close,,no activity since 2026-01-04T05:28:03Z (> 60 days)
+GT-000312,lead,LEAD-2026-000020,stale_lead,0,info,re-engage or close,,no activity since 2026-01-22T18:35:08Z (> 60 days)
+GT-000313,lead,LEAD-2026-000024,stale_lead,0,info,re-engage or close,,no activity since 2026-01-23T17:40:59Z (> 60 days)
+GT-000314,lead,LEAD-2026-000028,stale_lead,0,info,re-engage or close,,no activity since 2026-02-01T06:12:32Z (> 60 days)
+GT-000315,lead,LEAD-2026-000031,stale_lead,0,info,re-engage or close,,no activity since 2026-01-26T21:07:18Z (> 60 days)
+GT-000316,lead,LEAD-2026-000033,stale_lead,0,info,re-engage or close,,no activity since 2026-01-29T10:05:24Z (> 60 days)
+GT-000317,lead,LEAD-2026-000036,stale_lead,0,info,re-engage or close,,no activity since 2026-02-01T00:21:49Z (> 60 days)
+GT-000318,lead,LEAD-2026-000039,stale_lead,0,info,re-engage or close,,no activity since 2026-02-08T02:03:47Z (> 60 days)
+GT-000319,lead,LEAD-2026-000044,stale_lead,0,info,re-engage or close,,no activity since 2026-01-29T11:05:45Z (> 60 days)
+GT-000320,lead,LEAD-2026-000045,stale_lead,0,info,re-engage or close,,no activity since 2026-03-10T01:27:31Z (> 60 days)
+GT-000321,lead,LEAD-2026-000048,stale_lead,0,info,re-engage or close,,no activity since 2026-01-29T09:52:07Z (> 60 days)
+GT-000322,lead,LEAD-2026-000059,stale_lead,0,info,re-engage or close,,no activity since 2026-02-04T22:51:30Z (> 60 days)
+GT-000323,lead,LEAD-2026-000068,stale_lead,0,info,re-engage or close,,no activity since 2026-02-01T04:13:05Z (> 60 days)
+GT-000324,lead,LEAD-2026-000070,stale_lead,0,info,re-engage or close,,no activity since 2026-02-05T03:27:49Z (> 60 days)
+GT-000325,lead,LEAD-2026-000073,stale_lead,0,info,re-engage or close,,no activity since 2026-02-01T16:50:43Z (> 60 days)
+GT-000326,lead,LEAD-2026-000090,stale_lead,0,info,re-engage or close,,no activity since 2026-02-11T05:18:20Z (> 60 days)
+GT-000327,lead,LEAD-2026-000092,stale_lead,0,info,re-engage or close,,no activity since 2026-02-12T14:21:54Z (> 60 days)
+GT-000328,lead,LEAD-2026-000094,stale_lead,0,info,re-engage or close,,no activity since 2026-02-14T05:41:03Z (> 60 days)
+GT-000329,lead,LEAD-2026-000095,stale_lead,0,info,re-engage or close,,no activity since 2026-02-12T17:25:23Z (> 60 days)
+GT-000330,lead,LEAD-2026-000118,stale_lead,0,info,re-engage or close,,no activity since 2026-02-10T07:27:42Z (> 60 days)
+GT-000331,lead,LEAD-2026-000121,stale_lead,0,info,re-engage or close,,no activity since 2026-02-09T03:36:40Z (> 60 days)
+GT-000332,lead,LEAD-2026-000122,stale_lead,0,info,re-engage or close,,no activity since 2026-02-08T01:28:29Z (> 60 days)
+GT-000333,lead,LEAD-2026-000139,stale_lead,0,info,re-engage or close,,no activity since 2026-02-10T04:58:19Z (> 60 days)
+GT-000334,lead,LEAD-2026-000146,stale_lead,0,info,re-engage or close,,no activity since 2026-02-11T13:30:34Z (> 60 days)
+GT-000335,lead,LEAD-2026-000156,stale_lead,0,info,re-engage or close,,no activity since 2026-02-14T00:30:32Z (> 60 days)
+GT-000336,lead,LEAD-2026-000158,stale_lead,0,info,re-engage or close,,no activity since 2026-02-19T21:25:17Z (> 60 days)
+GT-000337,lead,LEAD-2026-000163,stale_lead,0,info,re-engage or close,,no activity since 2026-02-15T14:48:08Z (> 60 days)
+GT-000338,lead,LEAD-2026-000170,stale_lead,0,info,re-engage or close,,no activity since 2026-02-19T04:49:21Z (> 60 days)
+GT-000339,lead,LEAD-2026-000171,stale_lead,0,info,re-engage or close,,no activity since 2026-02-20T16:39:22Z (> 60 days)
+GT-000340,lead,LEAD-2026-000174,stale_lead,0,info,re-engage or close,,no activity since 2026-02-15T21:23:55Z (> 60 days)
+GT-000341,lead,LEAD-2026-000183,stale_lead,0,info,re-engage or close,,no activity since 2026-02-13T17:32:58Z (> 60 days)
+GT-000342,lead,LEAD-2026-000193,stale_lead,0,info,re-engage or close,,no activity since 2026-02-23T15:18:21Z (> 60 days)
+GT-000343,lead,LEAD-2026-000204,stale_lead,0,info,re-engage or close,,no activity since 2026-03-02T08:12:56Z (> 60 days)
+GT-000344,lead,LEAD-2026-000206,stale_lead,0,info,re-engage or close,,no activity since 2026-02-19T01:22:49Z (> 60 days)
+GT-000345,lead,LEAD-2026-000208,stale_lead,0,info,re-engage or close,,no activity since 2026-02-18T21:47:09Z (> 60 days)
+GT-000346,lead,LEAD-2026-000209,stale_lead,0,info,re-engage or close,,no activity since 2026-02-24T11:22:29Z (> 60 days)
+GT-000347,lead,LEAD-2026-000220,stale_lead,0,info,re-engage or close,,no activity since 2026-03-10T08:03:23Z (> 60 days)
+GT-000348,lead,LEAD-2026-000231,stale_lead,0,info,re-engage or close,,no activity since 2026-02-20T21:39:50Z (> 60 days)
+GT-000349,lead,LEAD-2026-000235,stale_lead,0,info,re-engage or close,,no activity since 2026-02-24T13:23:37Z (> 60 days)
+GT-000350,lead,LEAD-2026-000244,stale_lead,0,info,re-engage or close,,no activity since 2026-02-25T14:38:46Z (> 60 days)
+GT-000351,lead,LEAD-2026-000260,stale_lead,0,info,re-engage or close,,no activity since 2026-02-28T05:00:02Z (> 60 days)
+GT-000352,lead,LEAD-2026-000262,stale_lead,0,info,re-engage or close,,no activity since 2026-03-03T16:41:19Z (> 60 days)
+GT-000353,lead,LEAD-2026-000267,stale_lead,0,info,re-engage or close,,no activity since 2026-03-02T18:01:32Z (> 60 days)
+GT-000354,lead,LEAD-2026-000269,stale_lead,0,info,re-engage or close,,no activity since 2026-03-02T03:20:40Z (> 60 days)
+GT-000355,lead,LEAD-2026-000270,stale_lead,0,info,re-engage or close,,no activity since 2026-03-08T07:57:02Z (> 60 days)
+GT-000356,lead,LEAD-2026-000272,stale_lead,0,info,re-engage or close,,no activity since 2026-02-27T20:53:46Z (> 60 days)
+GT-000357,lead,LEAD-2026-000276,stale_lead,0,info,re-engage or close,,no activity since 2026-02-27T01:06:06Z (> 60 days)
+GT-000358,lead,LEAD-2026-000280,stale_lead,0,info,re-engage or close,,no activity since 2026-02-25T14:51:27Z (> 60 days)
+GT-000359,lead,LEAD-2026-000287,stale_lead,0,info,re-engage or close,,no activity since 2026-02-27T08:16:49Z (> 60 days)
+GT-000360,lead,LEAD-2026-000294,stale_lead,0,info,re-engage or close,,no activity since 2026-02-28T16:23:12Z (> 60 days)
+GT-000361,lead,LEAD-2026-000296,stale_lead,0,info,re-engage or close,,no activity since 2026-03-02T18:07:25Z (> 60 days)
+GT-000362,lead,LEAD-2026-000315,stale_lead,0,info,re-engage or close,,no activity since 2026-03-08T06:20:33Z (> 60 days)
+GT-000363,lead,LEAD-2026-000325,stale_lead,0,info,re-engage or close,,no activity since 2026-03-12T05:03:10Z (> 60 days)
+GT-000364,lead,LEAD-2026-000328,stale_lead,0,info,re-engage or close,,no activity since 2026-03-15T00:02:24Z (> 60 days)
+GT-000365,lead,LEAD-2026-000329,stale_lead,0,info,re-engage or close,,no activity since 2026-03-17T07:21:50Z (> 60 days)
+GT-000366,lead,LEAD-2026-000332,stale_lead,0,info,re-engage or close,,no activity since 2026-03-12T11:04:14Z (> 60 days)
+GT-000367,lead,LEAD-2026-000343,stale_lead,0,info,re-engage or close,,no activity since 2026-03-15T22:02:07Z (> 60 days)
+GT-000368,lead,LEAD-2026-000353,stale_lead,0,info,re-engage or close,,no activity since 2026-03-17T23:41:47Z (> 60 days)
+GT-000369,lead,LEAD-2026-000356,stale_lead,0,info,re-engage or close,,no activity since 2026-03-22T00:18:20Z (> 60 days)
+GT-000370,lead,LEAD-2026-000365,stale_lead,0,info,re-engage or close,,no activity since 2026-03-21T16:30:07Z (> 60 days)
+GT-000371,lead,LEAD-2026-000378,stale_lead,0,info,re-engage or close,,no activity since 2026-03-24T08:46:26Z (> 60 days)
+GT-000372,lead,LEAD-2026-000379,stale_lead,0,info,re-engage or close,,no activity since 2026-03-22T15:20:00Z (> 60 days)
+GT-000373,lead,LEAD-2026-000396,stale_lead,0,info,re-engage or close,,no activity since 2026-04-01T10:35:38Z (> 60 days)
+GT-000374,lead,LEAD-2026-000397,stale_lead,0,info,re-engage or close,,no activity since 2026-03-27T12:29:30Z (> 60 days)
+GT-000375,lead,LEAD-2026-000399,stale_lead,0,info,re-engage or close,,no activity since 2026-03-30T04:40:25Z (> 60 days)
+GT-000376,lead,LEAD-2026-000404,stale_lead,0,info,re-engage or close,,no activity since 2026-04-13T19:00:53Z (> 60 days)
+GT-000377,lead,LEAD-2026-000414,stale_lead,0,info,re-engage or close,,no activity since 2026-04-13T13:24:38Z (> 60 days)
+GT-000378,lead,LEAD-2026-000438,stale_lead,0,info,re-engage or close,,no activity since 2026-04-28T14:12:05Z (> 60 days)
+GT-000379,lead,LEAD-2026-000449,stale_lead,0,info,re-engage or close,,no activity since 2026-05-17T01:57:46Z (> 60 days)
+GT-000380,lead,LEAD-2026-000451,stale_lead,0,info,re-engage or close,,no activity since 2026-05-06T16:32:39Z (> 60 days)
+GT-000381,lead,LEAD-2026-000457,stale_lead,0,info,re-engage or close,,no activity since 2026-05-14T08:17:42Z (> 60 days)
+GT-000382,lead,LEAD-2026-000458,stale_lead,0,info,re-engage or close,,no activity since 2026-05-24T05:01:12Z (> 60 days)
+GT-000383,lead,LEAD-2026-000459,stale_lead,0,info,re-engage or close,,no activity since 2026-05-20T19:48:46Z (> 60 days)
+GT-000384,lead,LEAD-2026-000461,stale_lead,0,info,re-engage or close,,no activity since 2026-05-16T05:31:45Z (> 60 days)
+GT-000385,lead,LEAD-2026-000469,stale_lead,0,info,re-engage or close,,no activity since 2026-05-20T16:33:34Z (> 60 days)
+GT-000386,lead,LEAD-2026-000471,stale_lead,0,info,re-engage or close,,no activity since 2026-05-17T23:47:58Z (> 60 days)
+GT-000387,lead,LEAD-2026-000476,stale_lead,0,info,re-engage or close,,no activity since 2026-05-31T02:47:25Z (> 60 days)
+GT-000388,lead,LEAD-2026-000484,stale_lead,0,info,re-engage or close,,no activity since 2026-06-15T08:41:54Z (> 60 days)
+GT-000389,lead,LEAD-2026-000485,stale_lead,0,info,re-engage or close,,no activity since 2026-05-23T06:14:04Z (> 60 days)
+GT-000390,lead,LEAD-2026-000492,stale_lead,0,info,re-engage or close,,no activity since 2026-05-28T07:41:12Z (> 60 days)
+GT-000391,lead,LEAD-2026-000503,stale_lead,0,info,re-engage or close,,no activity since 2026-05-29T17:36:35Z (> 60 days)
+GT-000392,lead,LEAD-2026-000505,stale_lead,0,info,re-engage or close,,no activity since 2026-06-04T06:28:58Z (> 60 days)
+GT-000393,lead,LEAD-2026-000506,stale_lead,0,info,re-engage or close,,no activity since 2026-05-30T08:07:18Z (> 60 days)
+GT-000394,lead,LEAD-2026-000515,stale_lead,0,info,re-engage or close,,no activity since 2026-06-25T10:01:08Z (> 60 days)
+GT-000395,lead,LEAD-2026-000516,stale_lead,0,info,re-engage or close,,no activity since 2026-06-03T17:15:58Z (> 60 days)
+GT-000396,lead,LEAD-2026-000522,stale_lead,0,info,re-engage or close,,no activity since 2026-05-30T04:28:26Z (> 60 days)
+GT-000397,lead,LEAD-2026-000525,stale_lead,0,info,re-engage or close,,no activity since 2026-06-04T21:13:00Z (> 60 days)
+GT-000398,lead,LEAD-2026-000526,stale_lead,0,info,re-engage or close,,no activity since 2026-06-07T11:58:52Z (> 60 days)
+GT-000399,lead,LEAD-2026-000528,stale_lead,0,info,re-engage or close,,no activity since 2026-06-05T09:36:35Z (> 60 days)
+GT-000400,lead,LEAD-2026-000537,stale_lead,0,info,re-engage or close,,no activity since 2026-06-10T01:42:13Z (> 60 days)
+GT-000401,lead,LEAD-2026-000542,stale_lead,0,info,re-engage or close,,no activity since 2026-06-04T04:43:04Z (> 60 days)
+GT-000402,lead,LEAD-2026-000555,stale_lead,0,info,re-engage or close,,no activity since 2026-06-09T03:53:24Z (> 60 days)
+GT-000403,lead,LEAD-2026-000562,stale_lead,0,info,re-engage or close,,no activity since 2026-06-08T08:03:22Z (> 60 days)
+GT-000404,lead,LEAD-2026-000579,stale_lead,0,info,re-engage or close,,no activity since 2026-06-15T12:40:47Z (> 60 days)
+GT-000405,lead,LEAD-2026-000590,stale_lead,0,info,re-engage or close,,no activity since 2026-06-18T19:34:18Z (> 60 days)
+GT-000406,lead,LEAD-2026-000595,stale_lead,0,info,re-engage or close,,no activity since 2026-06-20T09:24:50Z (> 60 days)
+GT-000407,lead,LEAD-2026-000606,stale_lead,0,info,re-engage or close,,no activity since 2026-06-19T10:54:51Z (> 60 days)
+GT-000408,lead,LEAD-2026-000607,stale_lead,0,info,re-engage or close,,no activity since 2026-06-20T00:43:44Z (> 60 days)
+GT-000409,lead,LEAD-2026-000608,stale_lead,0,info,re-engage or close,,no activity since 2026-06-27T15:04:38Z (> 60 days)
+GT-000410,lead,LEAD-2026-000611,stale_lead,0,info,re-engage or close,,no activity since 2026-06-25T21:41:47Z (> 60 days)
+GT-000411,lead,LEAD-2026-000613,stale_lead,0,info,re-engage or close,,no activity since 2026-07-02T14:49:55Z (> 60 days)
+GT-000412,lead,LEAD-2026-000618,stale_lead,0,info,re-engage or close,,no activity since 2026-06-30T18:26:48Z (> 60 days)
+GT-000413,lead,LEAD-2026-000627,stale_lead,0,info,re-engage or close,,no activity since 2026-06-28T01:34:53Z (> 60 days)
+GT-000414,lead,LEAD-2026-000628,stale_lead,0,info,re-engage or close,,no activity since 2026-07-06T14:20:05Z (> 60 days)
+GT-000415,lead,LEAD-2026-000632,stale_lead,0,info,re-engage or close,,no activity since 2026-06-27T20:38:37Z (> 60 days)
+GT-000416,lead,LEAD-2026-000637,stale_lead,0,info,re-engage or close,,no activity since 2026-07-07T00:47:25Z (> 60 days)
+GT-000417,lead,LEAD-2026-000645,stale_lead,0,info,re-engage or close,,no activity since 2026-07-10T18:14:01Z (> 60 days)
+GT-000418,lead,LEAD-2026-000651,stale_lead,0,info,re-engage or close,,no activity since 2026-07-02T20:58:08Z (> 60 days)
+GT-000419,lead,LEAD-2026-000654,stale_lead,0,info,re-engage or close,,no activity since 2026-07-01T21:41:07Z (> 60 days)
+GT-000420,lead,LEAD-2026-000661,stale_lead,0,info,re-engage or close,,no activity since 2026-07-07T05:58:31Z (> 60 days)
+GT-000421,lead,LEAD-2026-000669,stale_lead,0,info,re-engage or close,,no activity since 2026-07-09T20:19:02Z (> 60 days)
+GT-000422,lead,LEAD-2026-000687,stale_lead,0,info,re-engage or close,,no activity since 2026-07-27T16:55:52Z (> 60 days)
+GT-000423,lead,LEAD-2026-000696,stale_lead,0,info,re-engage or close,,no activity since 2026-07-16T03:49:42Z (> 60 days)
+GT-000424,lead,LEAD-2026-000701,stale_lead,0,info,re-engage or close,,no activity since 2026-07-20T19:19:34Z (> 60 days)
+GT-000425,lead,LEAD-2026-000725,stale_lead,0,info,re-engage or close,,no activity since 2026-07-27T05:02:43Z (> 60 days)
+GT-000426,lead,LEAD-2026-000726,stale_lead,0,info,re-engage or close,,no activity since 2026-07-23T19:50:56Z (> 60 days)
+GT-000427,lead,LEAD-2026-000736,stale_lead,0,info,re-engage or close,,no activity since 2026-07-30T16:24:10Z (> 60 days)
+GT-000428,lead,LEAD-2026-000739,stale_lead,0,info,re-engage or close,,no activity since 2026-07-28T20:43:54Z (> 60 days)
+GT-000429,lead,LEAD-2026-000741,stale_lead,0,info,re-engage or close,,no activity since 2026-07-27T17:52:35Z (> 60 days)
+GT-000430,lead,LEAD-2026-000751,stale_lead,0,info,re-engage or close,,no activity since 2026-07-30T10:19:29Z (> 60 days)
+GT-000431,lead,LEAD-2026-000754,stale_lead,0,info,re-engage or close,,no activity since 2026-07-30T21:28:02Z (> 60 days)
+GT-000432,lead,LEAD-2026-000755,stale_lead,0,info,re-engage or close,,no activity since 2026-07-27T20:29:25Z (> 60 days)
+GT-000433,lead,LEAD-2026-000759,stale_lead,0,info,re-engage or close,,no activity since 2026-08-04T05:10:08Z (> 60 days)
+GT-000434,lead,LEAD-2026-000762,stale_lead,0,info,re-engage or close,,no activity since 2026-08-05T15:34:58Z (> 60 days)
+GT-000435,lead,LEAD-2026-000765,stale_lead,0,info,re-engage or close,,no activity since 2026-07-28T02:53:14Z (> 60 days)
+GT-000436,lead,LEAD-2026-000772,stale_lead,0,info,re-engage or close,,no activity since 2026-07-30T09:39:30Z (> 60 days)
+GT-000437,lead,LEAD-2026-000778,stale_lead,0,info,re-engage or close,,no activity since 2026-07-30T08:56:21Z (> 60 days)
+GT-000438,lead,LEAD-2026-000783,stale_lead,0,info,re-engage or close,,no activity since 2026-08-07T20:01:29Z (> 60 days)
+GT-000439,lead,LEAD-2026-000785,stale_lead,0,info,re-engage or close,,no activity since 2026-07-31T17:42:10Z (> 60 days)
+GT-000440,lead,LEAD-2026-000787,stale_lead,0,info,re-engage or close,,no activity since 2026-08-03T16:36:28Z (> 60 days)
+GT-000441,lead,LEAD-2026-000793,stale_lead,0,info,re-engage or close,,no activity since 2026-08-04T23:08:55Z (> 60 days)
+GT-000442,lead,LEAD-2026-000800,stale_lead,0,info,re-engage or close,,no activity since 2026-07-31T22:59:23Z (> 60 days)
+GT-000443,lead,LEAD-2026-000810,stale_lead,0,info,re-engage or close,,no activity since 2026-08-07T08:57:17Z (> 60 days)
+GT-000444,lead,LEAD-2026-000816,stale_lead,0,info,re-engage or close,,no activity since 2026-08-09T13:03:52Z (> 60 days)
+GT-000445,lead,LEAD-2026-000822,stale_lead,0,info,re-engage or close,,no activity since 2026-08-03T08:31:32Z (> 60 days)
+GT-000446,lead,LEAD-2026-000832,stale_lead,0,info,re-engage or close,,no activity since 2026-08-04T02:05:35Z (> 60 days)
+GT-000447,lead,LEAD-2026-000845,stale_lead,0,info,re-engage or close,,no activity since 2026-08-04T00:25:47Z (> 60 days)
+GT-000448,lead,LEAD-2026-000856,stale_lead,0,info,re-engage or close,,no activity since 2026-08-05T20:29:12Z (> 60 days)
+GT-000449,lead,LEAD-2026-000859,stale_lead,0,info,re-engage or close,,no activity since 2026-08-08T23:10:22Z (> 60 days)
+GT-000450,lead,LEAD-2026-000863,stale_lead,0,info,re-engage or close,,no activity since 2026-08-06T11:04:51Z (> 60 days)
+GT-000451,lead,LEAD-2026-000869,stale_lead,0,info,re-engage or close,,no activity since 2026-08-09T22:04:15Z (> 60 days)
+GT-000452,lead,LEAD-2026-000887,stale_lead,0,info,re-engage or close,,no activity since 2026-08-15T04:02:41Z (> 60 days)
+GT-000453,lead,LEAD-2026-000888,stale_lead,0,info,re-engage or close,,no activity since 2026-08-11T13:54:21Z (> 60 days)
+GT-000454,lead,LEAD-2026-000895,stale_lead,0,info,re-engage or close,,no activity since 2026-08-11T19:07:56Z (> 60 days)
+GT-000455,lead,LEAD-2026-000901,stale_lead,0,info,re-engage or close,,no activity since 2026-08-18T20:11:01Z (> 60 days)

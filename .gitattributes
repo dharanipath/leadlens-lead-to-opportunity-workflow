@@ -1,0 +1,4 @@
+# normalise source text, but keep generated datasets byte-for-byte (their SHA-256 checksums are part of the deliverable)
+* text=auto
+data/** -text
+*.sh text eol=lf

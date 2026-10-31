@@ -1,0 +1,13 @@
+# derived at run time (rebuilt automatically by `python run.py`)
+data/runtime.db
+data/runtime.db-wal
+data/runtime.db-shm
+data/ground_truth.db
+data/_repro/
+data/*.log
+# python / node / OS
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db

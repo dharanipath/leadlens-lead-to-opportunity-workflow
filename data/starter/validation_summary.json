@@ -1,0 +1,1733 @@
+{
+  "total": 186,
+  "passed": 186,
+  "failed": 0,
+  "categories": {
+    "volume": 4,
+    "primary_key": 14,
+    "id_format": 12,
+    "uniqueness": 4,
+    "enum": 42,
+    "range": 12,
+    "foreign_key": 27,
+    "join": 14,
+    "format": 1,
+    "date_order": 13,
+    "arithmetic": 12,
+    "score": 2,
+    "consent": 3,
+    "routing": 4,
+    "lifecycle": 8,
+    "duplicates": 2,
+    "funnel": 4,
+    "ground_truth": 8
+  },
+  "row_counts": {
+    "company": 500,
+    "contact": 1000,
+    "campaign": 10,
+    "sales_rep": 20,
+    "rep_product": 28,
+    "score_rule": 19,
+    "lead": 2000,
+    "lead_campaign": 2242,
+    "consent": 1038,
+    "opportunity": 300,
+    "activity": 29824,
+    "task": 3250,
+    "stage_history": 937,
+    "lead_status_history": 5182
+  },
+  "ground_truth_counts": {
+    "duplicate_contact": 50,
+    "duplicate_lead": 120,
+    "duplicate_opportunity": 4,
+    "high_score_non_converter": 103,
+    "lead_outside_territory": 10,
+    "opted_out_contacted": 12,
+    "score_post_conversion": 6,
+    "stage_history_gap": 5,
+    "stale_lead": 145
+  },
+  "foreign_keys_checked": 27,
+  "checks": [
+    {
+      "id": "V001",
+      "category": "volume",
+      "name": "lead row count equals parameter (leads=2000)",
+      "status": "pass",
+      "observed": 2000,
+      "expected": 2000,
+      "detail": ""
+    },
+    {
+      "id": "V002",
+      "category": "volume",
+      "name": "contact row count equals parameter (contacts=1000)",
+      "status": "pass",
+      "observed": 1000,
+      "expected": 1000,
+      "detail": ""
+    },
+    {
+      "id": "V003",
+      "category": "volume",
+      "name": "company row count equals parameter (companies=500)",
+      "status": "pass",
+      "observed": 500,
+      "expected": 500,
+      "detail": ""
+    },
+    {
+      "id": "V004",
+      "category": "volume",
+      "name": "opportunity row count equals parameter (opps=300)",
+      "status": "pass",
+      "observed": 300,
+      "expected": 300,
+      "detail": ""
+    },
+    {
+      "id": "V005",
+      "category": "primary_key",
+      "name": "company: primary key company_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V006",
+      "category": "id_format",
+      "name": "company.company_id matches ^CO-\\d{6}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V007",
+      "category": "uniqueness",
+      "name": "company.domain unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V008",
+      "category": "enum",
+      "name": "company.industry within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V009",
+      "category": "range",
+      "name": "company.employee_count within [1, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V010",
+      "category": "range",
+      "name": "company.annual_revenue_usd within [0, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V011",
+      "category": "enum",
+      "name": "company.region within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V012",
+      "category": "enum",
+      "name": "company.account_status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V013",
+      "category": "primary_key",
+      "name": "contact: primary key contact_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V014",
+      "category": "id_format",
+      "name": "contact.contact_id matches ^CON-\\d{6}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V015",
+      "category": "uniqueness",
+      "name": "contact.email unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V016",
+      "category": "enum",
+      "name": "contact.seniority within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V017",
+      "category": "enum",
+      "name": "contact.department within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V018",
+      "category": "enum",
+      "name": "contact.contact_status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V019",
+      "category": "primary_key",
+      "name": "campaign: primary key campaign_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V020",
+      "category": "id_format",
+      "name": "campaign.campaign_id matches ^CMP-\\d{4}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V021",
+      "category": "enum",
+      "name": "campaign.channel within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V022",
+      "category": "enum",
+      "name": "campaign.product_line within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V023",
+      "category": "enum",
+      "name": "campaign.target_region within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V024",
+      "category": "range",
+      "name": "campaign.budget_usd within [0, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V025",
+      "category": "enum",
+      "name": "campaign.status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V026",
+      "category": "primary_key",
+      "name": "sales_rep: primary key rep_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V027",
+      "category": "id_format",
+      "name": "sales_rep.rep_id matches ^REP-\\d{3}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V028",
+      "category": "uniqueness",
+      "name": "sales_rep.email unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V029",
+      "category": "enum",
+      "name": "sales_rep.role within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V030",
+      "category": "enum",
+      "name": "sales_rep.territory within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V031",
+      "category": "range",
+      "name": "sales_rep.max_open_leads within [1, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V032",
+      "category": "primary_key",
+      "name": "rep_product: primary key rep_id+product_line unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V033",
+      "category": "enum",
+      "name": "rep_product.product_line within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V034",
+      "category": "primary_key",
+      "name": "lead: primary key lead_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V035",
+      "category": "id_format",
+      "name": "lead.lead_id matches ^LEAD-2026-\\d{6}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V036",
+      "category": "enum",
+      "name": "lead.source within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V037",
+      "category": "enum",
+      "name": "lead.product_interest within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V038",
+      "category": "enum",
+      "name": "lead.consent_status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V039",
+      "category": "enum",
+      "name": "lead.territory within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V040",
+      "category": "enum",
+      "name": "lead.routing_method within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V041",
+      "category": "range",
+      "name": "lead.score within [0, 100]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V042",
+      "category": "enum",
+      "name": "lead.score_band within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V043",
+      "category": "enum",
+      "name": "lead.status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V044",
+      "category": "primary_key",
+      "name": "lead_campaign: primary key lead_id+campaign_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V045",
+      "category": "enum",
+      "name": "lead_campaign.touch_type within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V046",
+      "category": "primary_key",
+      "name": "consent: primary key consent_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V047",
+      "category": "id_format",
+      "name": "consent.consent_id matches ^CNS-\\d{6}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V048",
+      "category": "enum",
+      "name": "consent.channel within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V049",
+      "category": "enum",
+      "name": "consent.status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V050",
+      "category": "enum",
+      "name": "consent.legal_basis within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V051",
+      "category": "enum",
+      "name": "consent.source within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V052",
+      "category": "primary_key",
+      "name": "score_rule: primary key rule_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V053",
+      "category": "id_format",
+      "name": "score_rule.rule_id matches ^SR-V\\d+-\\d{3}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V054",
+      "category": "range",
+      "name": "score_rule.version within [1, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V055",
+      "category": "enum",
+      "name": "score_rule.dimension within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V056",
+      "category": "enum",
+      "name": "score_rule.rule_type within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V057",
+      "category": "range",
+      "name": "score_rule.max_points within [0, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V058",
+      "category": "primary_key",
+      "name": "activity: primary key activity_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V059",
+      "category": "id_format",
+      "name": "activity.activity_id matches ^ACT-LEAD-2026-\\d{6}-\\d{3}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V060",
+      "category": "enum",
+      "name": "activity.activity_type within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V061",
+      "category": "enum",
+      "name": "activity.direction within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V062",
+      "category": "enum",
+      "name": "activity.channel within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V063",
+      "category": "primary_key",
+      "name": "task: primary key task_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V064",
+      "category": "id_format",
+      "name": "task.task_id matches ^TASK-LEAD-2026-\\d{6}-\\d{3}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V065",
+      "category": "enum",
+      "name": "task.task_type within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V066",
+      "category": "enum",
+      "name": "task.priority within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V067",
+      "category": "range",
+      "name": "task.sla_hours within [1, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V068",
+      "category": "enum",
+      "name": "task.status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V069",
+      "category": "enum",
+      "name": "task.outcome within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V070",
+      "category": "primary_key",
+      "name": "opportunity: primary key opportunity_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V071",
+      "category": "id_format",
+      "name": "opportunity.opportunity_id matches ^OPP-2026-\\d{6}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V072",
+      "category": "uniqueness",
+      "name": "opportunity.lead_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V073",
+      "category": "enum",
+      "name": "opportunity.product_line within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V074",
+      "category": "range",
+      "name": "opportunity.seats within [1, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V075",
+      "category": "range",
+      "name": "opportunity.unit_price_usd within [1, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V076",
+      "category": "range",
+      "name": "opportunity.amount_usd within [0, None]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V077",
+      "category": "enum",
+      "name": "opportunity.stage within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V078",
+      "category": "enum",
+      "name": "opportunity.status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V079",
+      "category": "range",
+      "name": "opportunity.probability_pct within [0, 100]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V080",
+      "category": "enum",
+      "name": "opportunity.won_lost_reason within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V081",
+      "category": "primary_key",
+      "name": "stage_history: primary key stage_history_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V082",
+      "category": "id_format",
+      "name": "stage_history.stage_history_id matches ^SH-OPP-2026-\\d{6}-\\d{2}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V083",
+      "category": "enum",
+      "name": "stage_history.from_stage within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V084",
+      "category": "enum",
+      "name": "stage_history.to_stage within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V085",
+      "category": "primary_key",
+      "name": "lead_status_history: primary key lead_status_history_id unique",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V086",
+      "category": "id_format",
+      "name": "lead_status_history.lead_status_history_id matches ^LSH-LEAD-2026-\\d{6}-\\d{2}$",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V087",
+      "category": "enum",
+      "name": "lead_status_history.from_status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V088",
+      "category": "enum",
+      "name": "lead_status_history.to_status within allowed values",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V089",
+      "category": "foreign_key",
+      "name": "contact.company_id -> company.company_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V090",
+      "category": "foreign_key",
+      "name": "contact.merged_into_contact_id -> contact.contact_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V091",
+      "category": "foreign_key",
+      "name": "rep_product.rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V092",
+      "category": "foreign_key",
+      "name": "lead.contact_id -> contact.contact_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V093",
+      "category": "foreign_key",
+      "name": "lead.company_id -> company.company_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V094",
+      "category": "foreign_key",
+      "name": "lead.campaign_id -> campaign.campaign_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V095",
+      "category": "foreign_key",
+      "name": "lead.assigned_rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V096",
+      "category": "foreign_key",
+      "name": "lead.score_version -> score_rule.version resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V097",
+      "category": "foreign_key",
+      "name": "lead.duplicate_of_lead_id -> lead.lead_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V098",
+      "category": "foreign_key",
+      "name": "lead.opportunity_id -> opportunity.opportunity_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V099",
+      "category": "foreign_key",
+      "name": "lead_campaign.lead_id -> lead.lead_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V100",
+      "category": "foreign_key",
+      "name": "lead_campaign.campaign_id -> campaign.campaign_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V101",
+      "category": "foreign_key",
+      "name": "consent.contact_id -> contact.contact_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V102",
+      "category": "foreign_key",
+      "name": "activity.lead_id -> lead.lead_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V103",
+      "category": "foreign_key",
+      "name": "activity.contact_id -> contact.contact_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V104",
+      "category": "foreign_key",
+      "name": "activity.rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V105",
+      "category": "foreign_key",
+      "name": "activity.task_id -> task.task_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V106",
+      "category": "foreign_key",
+      "name": "task.lead_id -> lead.lead_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V107",
+      "category": "foreign_key",
+      "name": "task.assigned_rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V108",
+      "category": "foreign_key",
+      "name": "opportunity.lead_id -> lead.lead_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V109",
+      "category": "foreign_key",
+      "name": "opportunity.company_id -> company.company_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V110",
+      "category": "foreign_key",
+      "name": "opportunity.contact_id -> contact.contact_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V111",
+      "category": "foreign_key",
+      "name": "opportunity.owner_rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V112",
+      "category": "foreign_key",
+      "name": "stage_history.opportunity_id -> opportunity.opportunity_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V113",
+      "category": "foreign_key",
+      "name": "stage_history.changed_by_rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V114",
+      "category": "foreign_key",
+      "name": "lead_status_history.lead_id -> lead.lead_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V115",
+      "category": "foreign_key",
+      "name": "lead_status_history.changed_by_rep_id -> sales_rep.rep_id resolves",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V116",
+      "category": "join",
+      "name": "lead.company_id == contact.company_id",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V117",
+      "category": "join",
+      "name": "activity.contact_id == lead.contact_id",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V118",
+      "category": "join",
+      "name": "opportunity.company/contact == lead.company/contact",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V119",
+      "category": "join",
+      "name": "lead.opportunity_id <-> opportunity.lead_id (1:0..1) and Converted status",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V120",
+      "category": "join",
+      "name": "lead.source == campaign.channel (or Direct / Website when campaign is null)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V121",
+      "category": "join",
+      "name": "bridge lead_campaign contains each lead's primary campaign as first_touch",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V122",
+      "category": "join",
+      "name": "lead.territory == company.region",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V123",
+      "category": "join",
+      "name": "contact merged status <-> merged_into_contact_id",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V124",
+      "category": "join",
+      "name": "merged contacts point to an earlier, active canonical contact",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V125",
+      "category": "format",
+      "name": "contact.email well-formed on reserved .example domains (no real mailboxes)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V126",
+      "category": "join",
+      "name": "company.country belongs to region",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V127",
+      "category": "join",
+      "name": "every contact has >= 1 consent event",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V128",
+      "category": "join",
+      "name": "every lead has >= 1 activity",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V129",
+      "category": "join",
+      "name": "every opportunity has >= 1 stage_history row",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V130",
+      "category": "join",
+      "name": "every lead has >= 1 lead_status_history row",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V131",
+      "category": "date_order",
+      "name": "company.created_date <= earliest contact.created_date",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V132",
+      "category": "date_order",
+      "name": "contact.created_date <= lead.created_ts",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V133",
+      "category": "date_order",
+      "name": "campaign.end_date >= start_date",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V134",
+      "category": "date_order",
+      "name": "activity_ts within [lead.created - 30d, as-of]",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V135",
+      "category": "date_order",
+      "name": "campaign touch_ts <= lead.created_ts",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V136",
+      "category": "date_order",
+      "name": "task.completed_ts >= created_ts and <= as-of",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V137",
+      "category": "date_order",
+      "name": "lead.converted_ts >= created_ts",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V138",
+      "category": "date_order",
+      "name": "opportunity.created_ts == lead.converted_ts",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V139",
+      "category": "date_order",
+      "name": "opportunity.closed_ts >= created_ts",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V140",
+      "category": "date_order",
+      "name": "expected_close_date >= created date",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V141",
+      "category": "date_order",
+      "name": "stage_history.changed_ts strictly increasing per opportunity",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V142",
+      "category": "date_order",
+      "name": "lead_status_history.changed_ts non-decreasing per lead",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V143",
+      "category": "date_order",
+      "name": "no timestamp after the as-of date",
+      "status": "pass",
+      "observed": "2026-10-22T23:53:49Z",
+      "expected": "2026-10-22T23:59:59Z",
+      "detail": ""
+    },
+    {
+      "id": "V144",
+      "category": "arithmetic",
+      "name": "opportunity.amount_usd == seats x unit_price x (1 - discount)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V145",
+      "category": "arithmetic",
+      "name": "opportunity.unit_price_usd == product price list",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V146",
+      "category": "arithmetic",
+      "name": "opportunity.probability_pct == stage probability table",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V147",
+      "category": "arithmetic",
+      "name": "opportunity.status derived from stage",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V148",
+      "category": "arithmetic",
+      "name": "closed_ts / won_lost_reason present iff opportunity closed",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V149",
+      "category": "arithmetic",
+      "name": "won/lost reason family matches status",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V150",
+      "category": "arithmetic",
+      "name": "opportunity.stage == last stage_history.to_stage",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V151",
+      "category": "arithmetic",
+      "name": "task.due_ts == created_ts + sla_hours; sla_met and status derived consistently",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V152",
+      "category": "arithmetic",
+      "name": "task.priority matches score band at creation",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V153",
+      "category": "arithmetic",
+      "name": "lead.last_activity_ts == max(activity_ts)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V154",
+      "category": "arithmetic",
+      "name": "company.account_status derived from won opportunities",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V155",
+      "category": "arithmetic",
+      "name": "lead.score_band consistent with score cut-offs",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V156",
+      "category": "score",
+      "name": "score reproducible: recomputed from ScoreRule + activity (cut-off = scored_ts) for every lead",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": "2000/2000 exact matches"
+    },
+    {
+      "id": "V157",
+      "category": "score",
+      "name": "scores using post-conversion events == labelled score_post_conversion",
+      "status": "pass",
+      "observed": 6,
+      "expected": 6,
+      "detail": "observed==labelled: True; unlabelled=0; missed=0"
+    },
+    {
+      "id": "V158",
+      "category": "consent",
+      "name": "outbound e-mail/call without valid consent == labelled opted_out_contacted",
+      "status": "pass",
+      "observed": 12,
+      "expected": 12,
+      "detail": "observed==labelled: True; unlabelled=0; missed=0"
+    },
+    {
+      "id": "V159",
+      "category": "consent",
+      "name": "no follow-up task completed after an opt-out (task layer)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V160",
+      "category": "consent",
+      "name": "opt-out events use legal_basis 'consent'",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V161",
+      "category": "routing",
+      "name": "lead owner outside lead territory == labelled lead_outside_territory",
+      "status": "pass",
+      "observed": 10,
+      "expected": 10,
+      "detail": "observed==labelled: True; unlabelled=0; missed=0"
+    },
+    {
+      "id": "V162",
+      "category": "routing",
+      "name": "rule_based routing always matches rep product specialty",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V163",
+      "category": "routing",
+      "name": "unroutable leads sit in the Sales-Ops queue (REP-000)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V164",
+      "category": "routing",
+      "name": "no unrouted lead converted without an owner",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V165",
+      "category": "lifecycle",
+      "name": "lead status transitions follow the allowed state machine and chain without gaps",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V166",
+      "category": "lifecycle",
+      "name": "lead.status == last lead_status_history.to_status",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V167",
+      "category": "lifecycle",
+      "name": "status_reason present iff Disqualified/Stale",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V168",
+      "category": "lifecycle",
+      "name": "opportunities with broken stage-history chain == labelled stage_history_gap",
+      "status": "pass",
+      "observed": 5,
+      "expected": 5,
+      "detail": "observed==labelled: True; unlabelled=0; missed=0"
+    },
+    {
+      "id": "V169",
+      "category": "lifecycle",
+      "name": "open stages advance one step at a time (no skipped stages in recorded transitions)",
+      "status": "pass",
+      "observed": 0,
+      "expected": null,
+      "detail": "skips caused by missing rows are the labelled gaps"
+    },
+    {
+      "id": "V170",
+      "category": "lifecycle",
+      "name": "duplicate lead with its own opportunity (canonical also converted) == labelled duplicate_opportunity",
+      "status": "pass",
+      "observed": 4,
+      "expected": 4,
+      "detail": "observed==labelled: True; unlabelled=0; missed=0"
+    },
+    {
+      "id": "V171",
+      "category": "lifecycle",
+      "name": "merged duplicate leads are Disqualified (Duplicate) unless labelled",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V172",
+      "category": "lifecycle",
+      "name": "canonical lead of a duplicate is older",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V173",
+      "category": "duplicates",
+      "name": "no two active contacts share a normalised e-mail (tier-1 de-dup applied)",
+      "status": "pass",
+      "observed": 0,
+      "expected": 0,
+      "detail": ""
+    },
+    {
+      "id": "V174",
+      "category": "duplicates",
+      "name": "planted duplicate contacts detected by tier-1/2 rules (recall reported, misses are deliberate)",
+      "status": "pass",
+      "observed": "44/50",
+      "expected": null,
+      "detail": "recall=0.880"
+    },
+    {
+      "id": "V175",
+      "category": "funnel",
+      "name": "sum of leads by status == total leads",
+      "status": "pass",
+      "observed": 2000,
+      "expected": 2000,
+      "detail": ""
+    },
+    {
+      "id": "V176",
+      "category": "funnel",
+      "name": "Converted leads == opportunities",
+      "status": "pass",
+      "observed": 300,
+      "expected": 300,
+      "detail": ""
+    },
+    {
+      "id": "V177",
+      "category": "funnel",
+      "name": "open + won + lost == opportunities",
+      "status": "pass",
+      "observed": 300,
+      "expected": 300,
+      "detail": ""
+    },
+    {
+      "id": "V178",
+      "category": "funnel",
+      "name": "funnel is monotone: Leads >= Qualified-reached >= Opportunities >= Won",
+      "status": "pass",
+      "observed": "2000>=496>=300>=49",
+      "expected": null,
+      "detail": ""
+    },
+    {
+      "id": "V179",
+      "category": "ground_truth",
+      "name": "no ground-truth / label columns leak into input tables",
+      "status": "pass",
+      "observed": [],
+      "expected": [],
+      "detail": ""
+    },
+    {
+      "id": "V180",
+      "category": "ground_truth",
+      "name": "ground-truth outcomes cover every lead exactly once",
+      "status": "pass",
+      "observed": 2000,
+      "expected": 2000,
+      "detail": ""
+    },
+    {
+      "id": "V181",
+      "category": "ground_truth",
+      "name": "labelled edge case present: opted_out_contacted",
+      "status": "pass",
+      "observed": 12,
+      "expected": ">0",
+      "detail": ""
+    },
+    {
+      "id": "V182",
+      "category": "ground_truth",
+      "name": "labelled edge case present: score_post_conversion",
+      "status": "pass",
+      "observed": 6,
+      "expected": ">0",
+      "detail": ""
+    },
+    {
+      "id": "V183",
+      "category": "ground_truth",
+      "name": "labelled edge case present: lead_outside_territory",
+      "status": "pass",
+      "observed": 10,
+      "expected": ">0",
+      "detail": ""
+    },
+    {
+      "id": "V184",
+      "category": "ground_truth",
+      "name": "labelled edge case present: duplicate_opportunity",
+      "status": "pass",
+      "observed": 4,
+      "expected": ">0",
+      "detail": ""
+    },
+    {
+      "id": "V185",
+      "category": "ground_truth",
+      "name": "labelled edge case present: stage_history_gap",
+      "status": "pass",
+      "observed": 5,
+      "expected": ">0",
+      "detail": ""
+    },
+    {
+      "id": "V186",
+      "category": "ground_truth",
+      "name": "stale, high-score non-converter, duplicate and opt-out populations present",
+      "status": "pass",
+      "observed": {
+        "stale_lead": 145,
+        "high_score_non_converter": 103,
+        "duplicate_lead": 120
+      },
+      "expected": null,
+      "detail": ""
+    }
+  ]
+}

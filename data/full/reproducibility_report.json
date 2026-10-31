@@ -1,0 +1,330 @@
+{
+  "seed": 20261022,
+  "scale": "full",
+  "command": "python generator/reproduce.py --scale full",
+  "all_identical": true,
+  "files_compared": 32,
+  "note": "run_1 and run_2 used different PYTHONHASHSEED values to expose any hash-order nondeterminism",
+  "files": [
+    {
+      "file": "csv/activity.csv",
+      "rows_run1": 265101,
+      "rows_run2": 265101,
+      "sha256_run1": "30740ae9bd3ba4113dc911f04960b6f46078fbb42d417ddf52bd030832c1e57b",
+      "sha256_run2": "30740ae9bd3ba4113dc911f04960b6f46078fbb42d417ddf52bd030832c1e57b",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/campaign.csv",
+      "rows_run1": 40,
+      "rows_run2": 40,
+      "sha256_run1": "4be87a84b4fd4379cd2e6f118cf7efa14e74ac6547a8ae0d79c082dff34ddc11",
+      "sha256_run2": "4be87a84b4fd4379cd2e6f118cf7efa14e74ac6547a8ae0d79c082dff34ddc11",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/company.csv",
+      "rows_run1": 5000,
+      "rows_run2": 5000,
+      "sha256_run1": "9a1fe2547be5b944838993933e893423dc17ef0f339391024c8f9023a2baeedd",
+      "sha256_run2": "9a1fe2547be5b944838993933e893423dc17ef0f339391024c8f9023a2baeedd",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/consent.csv",
+      "rows_run1": 10486,
+      "rows_run2": 10486,
+      "sha256_run1": "18d295f9a9c385fe2ace1dd96601078a5324ff8cbc8115355cd3b491fda29402",
+      "sha256_run2": "18d295f9a9c385fe2ace1dd96601078a5324ff8cbc8115355cd3b491fda29402",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/contact.csv",
+      "rows_run1": 10000,
+      "rows_run2": 10000,
+      "sha256_run1": "33a7d87f02b361024e61b84af1285492fe8910b8d52127563b227e92b1f05778",
+      "sha256_run2": "33a7d87f02b361024e61b84af1285492fe8910b8d52127563b227e92b1f05778",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/lead.csv",
+      "rows_run1": 20000,
+      "rows_run2": 20000,
+      "sha256_run1": "1bf345a0f3bd35d887eff67b91cdacdddf9fc62ee9058ba8ca9f66e8c8dfd4de",
+      "sha256_run2": "1bf345a0f3bd35d887eff67b91cdacdddf9fc62ee9058ba8ca9f66e8c8dfd4de",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/lead_campaign.csv",
+      "rows_run1": 25769,
+      "rows_run2": 25769,
+      "sha256_run1": "836249c5d6a8eea3176e55e74cb56ea6537dec1ce82027ae8406c73eec392ade",
+      "sha256_run2": "836249c5d6a8eea3176e55e74cb56ea6537dec1ce82027ae8406c73eec392ade",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/lead_status_history.csv",
+      "rows_run1": 51741,
+      "rows_run2": 51741,
+      "sha256_run1": "2045aab2f7d05e25a6161c1b0ff0b952c8d73901acf356194eec951738ae3ba9",
+      "sha256_run2": "2045aab2f7d05e25a6161c1b0ff0b952c8d73901acf356194eec951738ae3ba9",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/opportunity.csv",
+      "rows_run1": 3000,
+      "rows_run2": 3000,
+      "sha256_run1": "1924950a1d0a8049ec2c26ad80adf65359a2a9cfade67e495d8eaaf2211efad2",
+      "sha256_run2": "1924950a1d0a8049ec2c26ad80adf65359a2a9cfade67e495d8eaaf2211efad2",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/rep_product.csv",
+      "rows_run1": 58,
+      "rows_run2": 58,
+      "sha256_run1": "92f88d49e7e69594ded79440803c13312c8de958b33d88094fde676dcfb95501",
+      "sha256_run2": "92f88d49e7e69594ded79440803c13312c8de958b33d88094fde676dcfb95501",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/sales_rep.csv",
+      "rows_run1": 35,
+      "rows_run2": 35,
+      "sha256_run1": "2d1d4cc438ebb09e9266762c98a949f79971992d45b4aff33128c849087cf4a9",
+      "sha256_run2": "2d1d4cc438ebb09e9266762c98a949f79971992d45b4aff33128c849087cf4a9",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/score_rule.csv",
+      "rows_run1": 19,
+      "rows_run2": 19,
+      "sha256_run1": "08fccd3ec4a079bcc7fa206a56d3eba09ed4bf9f882d3ac0faf81e56a0d23dc6",
+      "sha256_run2": "08fccd3ec4a079bcc7fa206a56d3eba09ed4bf9f882d3ac0faf81e56a0d23dc6",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": false
+    },
+    {
+      "file": "csv/stage_history.csv",
+      "rows_run1": 11874,
+      "rows_run2": 11874,
+      "sha256_run1": "d078e03bbd4e2367a398ababf113834e3c776ddbc2cfea02651d8cc28b1b5550",
+      "sha256_run2": "d078e03bbd4e2367a398ababf113834e3c776ddbc2cfea02651d8cc28b1b5550",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "csv/task.csv",
+      "rows_run1": 30559,
+      "rows_run2": 30559,
+      "sha256_run1": "c58e045acd8bbe62e30816fdc88e3dd8d88789f905c54bb1b128a2f0736783b4",
+      "sha256_run2": "c58e045acd8bbe62e30816fdc88e3dd8d88789f905c54bb1b128a2f0736783b4",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "ground_truth/ground_truth.csv",
+      "rows_run1": 5281,
+      "rows_run2": 5281,
+      "sha256_run1": "ee0339eaf2fd9cc28ae113c1733c074b1c9cdadc733eee722408f008712c451c",
+      "sha256_run2": "ee0339eaf2fd9cc28ae113c1733c074b1c9cdadc733eee722408f008712c451c",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "ground_truth/ground_truth.json",
+      "rows_run1": 5281,
+      "rows_run2": 5281,
+      "sha256_run1": "c46c17e6c0f5442519e02db7237a11cb86f709e7ed4c98f6f3626d34bfe81f70",
+      "sha256_run2": "c46c17e6c0f5442519e02db7237a11cb86f709e7ed4c98f6f3626d34bfe81f70",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "ground_truth/ground_truth_outcomes.csv",
+      "rows_run1": 20000,
+      "rows_run2": 20000,
+      "sha256_run1": "0e741da904a48ebfb4945374f382eac64da891cf70fbd9a8738224efc1f7127e",
+      "sha256_run2": "0e741da904a48ebfb4945374f382eac64da891cf70fbd9a8738224efc1f7127e",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/activity.json",
+      "rows_run1": 265101,
+      "rows_run2": 265101,
+      "sha256_run1": "6665869b9e97b70271b9b1aa0328005a99e19d51ec0acc71c8c6abd44377159e",
+      "sha256_run2": "6665869b9e97b70271b9b1aa0328005a99e19d51ec0acc71c8c6abd44377159e",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/campaign.json",
+      "rows_run1": 40,
+      "rows_run2": 40,
+      "sha256_run1": "e39795b6cc0e56b89faf655df05ef70f58240da908c723ecd7055223dd6b36a4",
+      "sha256_run2": "e39795b6cc0e56b89faf655df05ef70f58240da908c723ecd7055223dd6b36a4",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/company.json",
+      "rows_run1": 5000,
+      "rows_run2": 5000,
+      "sha256_run1": "69f6196ffc1e1437958b24129be46da23be7f46c1e3cc7fed7bb3b577f67ac5b",
+      "sha256_run2": "69f6196ffc1e1437958b24129be46da23be7f46c1e3cc7fed7bb3b577f67ac5b",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/consent.json",
+      "rows_run1": 10486,
+      "rows_run2": 10486,
+      "sha256_run1": "9ee361d3e72e306813d72abee188f271b5b9b2dd572f1139639af382ed7db6c3",
+      "sha256_run2": "9ee361d3e72e306813d72abee188f271b5b9b2dd572f1139639af382ed7db6c3",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/contact.json",
+      "rows_run1": 10000,
+      "rows_run2": 10000,
+      "sha256_run1": "08a704046b138f67a41bf33deb58c754791f806efc968655fd9b531b08a68916",
+      "sha256_run2": "08a704046b138f67a41bf33deb58c754791f806efc968655fd9b531b08a68916",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/lead.json",
+      "rows_run1": 20000,
+      "rows_run2": 20000,
+      "sha256_run1": "1d9fcd6a2076f25ee8197ca809c1726f5b7e01cbc2b4bd29a9ace1f340378d7f",
+      "sha256_run2": "1d9fcd6a2076f25ee8197ca809c1726f5b7e01cbc2b4bd29a9ace1f340378d7f",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/lead_campaign.json",
+      "rows_run1": 25769,
+      "rows_run2": 25769,
+      "sha256_run1": "aeb8b291463b8e6262bf308290fe8dbe2355499bfa9a28a5ecff64b0fb979504",
+      "sha256_run2": "aeb8b291463b8e6262bf308290fe8dbe2355499bfa9a28a5ecff64b0fb979504",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/lead_status_history.json",
+      "rows_run1": 51741,
+      "rows_run2": 51741,
+      "sha256_run1": "c2c3764b53696d79bcd9d30feedee29717e6601fd088e72c134605b090fc657f",
+      "sha256_run2": "c2c3764b53696d79bcd9d30feedee29717e6601fd088e72c134605b090fc657f",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/opportunity.json",
+      "rows_run1": 3000,
+      "rows_run2": 3000,
+      "sha256_run1": "8c4fc2111fde2ccfdb78d9450731b27114bade7342447f783d970d6d6ca8a5bb",
+      "sha256_run2": "8c4fc2111fde2ccfdb78d9450731b27114bade7342447f783d970d6d6ca8a5bb",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/rep_product.json",
+      "rows_run1": 58,
+      "rows_run2": 58,
+      "sha256_run1": "c8eddaad68b494417edeb028fa6710c074e19085604a5637f5d3a3bb78babe86",
+      "sha256_run2": "c8eddaad68b494417edeb028fa6710c074e19085604a5637f5d3a3bb78babe86",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/sales_rep.json",
+      "rows_run1": 35,
+      "rows_run2": 35,
+      "sha256_run1": "81e22eddb80c9bb2370441eb1b22f7552676d9a8e56cea90714da0ae4a234d9a",
+      "sha256_run2": "81e22eddb80c9bb2370441eb1b22f7552676d9a8e56cea90714da0ae4a234d9a",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/score_rule.json",
+      "rows_run1": 19,
+      "rows_run2": 19,
+      "sha256_run1": "3606d1e39bb0fd27187d9060da00d4d441b3d9232f88757233b62bafeeec94c9",
+      "sha256_run2": "3606d1e39bb0fd27187d9060da00d4d441b3d9232f88757233b62bafeeec94c9",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": false
+    },
+    {
+      "file": "json/stage_history.json",
+      "rows_run1": 11874,
+      "rows_run2": 11874,
+      "sha256_run1": "d6dab24bf9b61c94e93c90312656dc71bccdeac90400e380fb811c240cfab673",
+      "sha256_run2": "d6dab24bf9b61c94e93c90312656dc71bccdeac90400e380fb811c240cfab673",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "json/task.json",
+      "rows_run1": 30559,
+      "rows_run2": 30559,
+      "sha256_run1": "7bedcf3960dba6c71506b74abca65caea27f9d29ef9c007d61104dce11f613b6",
+      "sha256_run2": "7bedcf3960dba6c71506b74abca65caea27f9d29ef9c007d61104dce11f613b6",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    },
+    {
+      "file": "sql/seed.sql",
+      "rows_run1": 433682,
+      "rows_run2": 433682,
+      "sha256_run1": "6a3fa81a5e7c18af571b433efe06790062b9eea83fbcd4ccabc7ee2df41bec6f",
+      "sha256_run2": "6a3fa81a5e7c18af571b433efe06790062b9eea83fbcd4ccabc7ee2df41bec6f",
+      "identical": true,
+      "matches_published_dataset": true,
+      "differs_with_other_seed": true
+    }
+  ]
+}

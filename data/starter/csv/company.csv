@@ -1,0 +1,501 @@
+company_id,company_name,domain,industry,employee_count,annual_revenue_usd,region,country,created_date,account_status
+CO-000001,Delta Partners,deltapartners.example,FinTech,292,63916060,APAC,Australia,2022-08-16,prospect
+CO-000002,Onyx Capital,onyxcapital.example,Logistics,1498,234580284,APAC,Japan,2022-10-21,prospect
+CO-000003,Ridge Logistics,ridgelogistics.example,Software,147,21184464,NA-East,United States,2022-11-17,prospect
+CO-000004,Northwind Retail,northwindretail.example,Manufacturing,358,53264675,APAC,Australia,2022-11-24,prospect
+CO-000005,Mosaic Cloud,mosaiccloud.example,Manufacturing,31,5086169,EMEA,Netherlands,2022-11-26,prospect
+CO-000006,Lumen Solutions,lumensolutions.example,FinTech,60,19447441,EMEA,Germany,2022-12-05,prospect
+CO-000007,Zenith Holdings,zenithholdings.example,FinTech,67,18556389,NA-West,Canada,2022-12-06,prospect
+CO-000008,Xenon Partners,xenonpartners.example,Retail,224,27341224,NA-East,United States,2022-12-07,customer
+CO-000009,Forge Analytics,forgeanalytics.example,Retail,147,15344795,NA-West,Mexico,2022-12-11,prospect
+CO-000010,Kite Retail,kiteretail.example,FinTech,67,14229223,NA-West,United States,2022-12-14,prospect
+CO-000011,Xenon Analytics,xenonanalytics.example,Software,117,15295099,APAC,New Zealand,2022-12-15,customer
+CO-000012,Argent Labs,argentlabs.example,Manufacturing,19,2585497,NA-East,United States,2022-12-16,customer
+CO-000013,Iron Ventures,ironventures.example,Media,334,59619422,LATAM,Brazil,2022-12-22,prospect
+CO-000014,Northwind Capital,northwindcapital.example,Retail,46,7911989,EMEA,Germany,2023-01-01,prospect
+CO-000015,Harbor Labs,harborlabs.example,Healthcare,298,35664726,EMEA,Germany,2023-01-01,prospect
+CO-000016,Vector Software,vectorsoftware.example,Software,129,25036385,NA-East,Canada,2023-01-07,prospect
+CO-000017,Zenith Cloud,zenithcloud.example,Retail,124,22435453,NA-West,Mexico,2023-01-08,prospect
+CO-000018,Forge Group,forgegroup.example,Logistics,61,6653209,EMEA,France,2023-01-15,prospect
+CO-000019,Harbor Cloud,harborcloud.example,Manufacturing,2285,453344523,NA-West,Mexico,2023-01-20,prospect
+CO-000020,Kindred Ventures,kindredventures.example,Manufacturing,280,40871664,NA-West,United States,2023-01-24,prospect
+CO-000021,Lattice Industries,latticeindustries.example,Retail,1560,321600403,EMEA,Netherlands,2023-02-01,prospect
+CO-000022,Dune Technologies,dunetechnologies.example,Manufacturing,90,20621740,EMEA,United Kingdom,2023-02-06,prospect
+CO-000023,Vertex Technologies,vertextechnologies.example,Education,46,2545763,NA-West,Mexico,2023-02-08,prospect
+CO-000024,Kindred Learning,kindredlearning.example,Healthcare,28,5646049,EMEA,Spain,2023-02-18,prospect
+CO-000025,Atlas Telecom,atlastelecom.example,Logistics,195,35647309,APAC,India,2023-02-24,prospect
+CO-000026,Granite Learning,granitelearning.example,Energy,319,187761475,APAC,Japan,2023-03-02,customer
+CO-000027,Vertex Foods,vertexfoods.example,FinTech,45,13693076,NA-West,United States,2023-03-02,prospect
+CO-000028,Jade Capital,jadecapital.example,FinTech,1473,481858504,EMEA,Sweden,2023-03-06,prospect
+CO-000029,Forge Studios,forgestudios.example,Energy,267,139859356,EMEA,United Kingdom,2023-03-17,prospect
+CO-000030,Iron Telecom,irontelecom.example,Media,448,64705120,NA-East,Canada,2023-03-20,customer
+CO-000031,Yonder Energy,yonderenergy.example,Education,148,12585182,NA-West,United States,2023-03-21,prospect
+CO-000032,Orbit Retail,orbitretail.example,Energy,286,164035124,EMEA,South Africa,2023-04-01,prospect
+CO-000033,Xenon Digital,xenondigital.example,Energy,199,110427605,EMEA,Netherlands,2023-04-06,prospect
+CO-000034,Apex Energy,apexenergy.example,Energy,138,99969611,APAC,Japan,2023-04-06,prospect
+CO-000035,Glacier Networks,glaciernetworks.example,Logistics,60,5269834,NA-East,Canada,2023-04-08,prospect
+CO-000036,Xenon Software,xenonsoftware.example,Logistics,123,18334088,NA-West,Mexico,2023-04-09,prospect
+CO-000037,Sable Retail,sableretail.example,Telecom,1060,373430495,NA-East,United States,2023-04-10,prospect
+CO-000038,Union Cloud,unioncloud.example,Logistics,425,68938388,EMEA,Spain,2023-04-12,prospect
+CO-000039,Orbit Cloud,orbitcloud.example,FinTech,33,9217133,NA-East,United States,2023-04-16,prospect
+CO-000040,Sable Energy,sableenergy.example,Software,454,129234103,NA-West,Canada,2023-04-18,prospect
+CO-000041,Cobalt Software,cobaltsoftware.example,Logistics,555,48042222,NA-East,Canada,2023-04-20,customer
+CO-000042,Jetstream Telecom,jetstreamtelecom.example,Software,183,40918131,APAC,India,2023-04-21,prospect
+CO-000043,Forge Energy,forgeenergy.example,Education,1494,119972093,LATAM,Brazil,2023-05-01,customer
+CO-000044,Driftwood Foods,driftwoodfoods.example,Retail,179,24278480,EMEA,Sweden,2023-05-02,prospect
+CO-000045,Prism Foods,prismfoods.example,Telecom,625,121676899,EMEA,Spain,2023-05-04,prospect
+CO-000046,Tundra Ventures,tundraventures.example,Manufacturing,151,17503838,NA-East,Canada,2023-05-05,prospect
+CO-000047,Ember Retail,emberretail.example,Software,429,95625093,EMEA,Sweden,2023-05-08,prospect
+CO-000048,Willow Capital,willowcapital.example,FinTech,47,11200068,APAC,India,2023-05-08,prospect
+CO-000049,Umber Analytics,umberanalytics.example,Manufacturing,686,155917382,EMEA,Sweden,2023-05-11,prospect
+CO-000050,Fathom Telecom,fathomtelecom.example,FinTech,119,20560157,NA-West,United States,2023-05-13,prospect
+CO-000051,Lattice Logistics,latticelogistics.example,Logistics,53,6416578,EMEA,South Africa,2023-05-13,prospect
+CO-000052,Glacier Ventures,glacierventures.example,Healthcare,131,20146302,NA-East,Canada,2023-05-14,prospect
+CO-000053,Meridian Digital,meridiandigital.example,FinTech,76,14381516,NA-East,Canada,2023-05-17,prospect
+CO-000054,Yonder Mobility,yondermobility.example,Software,256,65268692,NA-East,Canada,2023-05-17,prospect
+CO-000055,Halcyon Foods,halcyonfoods.example,FinTech,101,34214176,APAC,Singapore,2023-05-18,prospect
+CO-000056,Harbor Learning,harborlearning.example,Manufacturing,528,79347532,EMEA,Spain,2023-05-18,prospect
+CO-000057,Lumen Group,lumengroup.example,Manufacturing,288,56360553,EMEA,South Africa,2023-05-21,prospect
+CO-000058,Fathom Partners,fathompartners.example,Retail,40,8499236,NA-East,United States,2023-05-25,prospect
+CO-000059,Meridian Logistics,meridianlogistics.example,Manufacturing,416,70444163,NA-East,United States,2023-05-28,prospect
+CO-000060,Juniper Media,junipermedia.example,Logistics,571,71798911,NA-West,Mexico,2023-05-29,customer
+CO-000061,Kite Industries,kiteindustries.example,Healthcare,141,22238908,EMEA,Sweden,2023-05-29,customer
+CO-000062,Jetstream Energy,jetstreamenergy.example,Education,212,16013301,APAC,Australia,2023-05-31,prospect
+CO-000063,Beacon Learning,beaconlearning.example,Software,58,14124563,NA-East,Canada,2023-06-01,prospect
+CO-000064,Umber Capital,umbercapital.example,Media,1561,226278473,LATAM,Brazil,2023-06-03,prospect
+CO-000065,Tundra Cloud,tundracloud.example,Logistics,53,7388703,NA-East,Canada,2023-06-03,prospect
+CO-000066,Redwood Foods,redwoodfoods.example,Retail,162,15910253,EMEA,Spain,2023-06-06,prospect
+CO-000067,Apex Capital,apexcapital.example,Manufacturing,14,2418562,LATAM,Argentina,2023-06-06,prospect
+CO-000068,Blue Media,bluemedia.example,Retail,389,68303878,EMEA,Netherlands,2023-06-08,prospect
+CO-000069,Willow Media,willowmedia.example,Software,36,6441430,NA-East,United States,2023-06-08,prospect
+CO-000070,Vertex Telecom,vertextelecom.example,FinTech,971,343000060,EMEA,Netherlands,2023-06-15,prospect
+CO-000071,Glacier Labs,glacierlabs.example,Retail,126,28008109,APAC,Singapore,2023-06-18,customer
+CO-000072,Jade Cloud,jadecloud.example,Manufacturing,1439,374383549,APAC,New Zealand,2023-06-28,prospect
+CO-000073,Wren Mobility,wrenmobility.example,Telecom,260,58902802,EMEA,France,2023-06-30,customer
+CO-000074,Falcon Energy,falconenergy.example,Media,420,75284967,EMEA,United Kingdom,2023-07-01,prospect
+CO-000075,Vector Technologies,vectortechnologies.example,Software,5197,1328922017,NA-East,United States,2023-07-01,prospect
+CO-000076,Cedar Logistics,cedarlogistics.example,Software,337,91822243,NA-East,Canada,2023-07-05,prospect
+CO-000077,Echo Systems,echosystems.example,Healthcare,170,22290435,APAC,Australia,2023-07-08,prospect
+CO-000078,Prism Solutions,prismsolutions.example,Media,101,21035757,NA-West,Mexico,2023-07-10,prospect
+CO-000079,Quartz Cloud,quartzcloud.example,Healthcare,157,14953208,NA-East,Canada,2023-07-11,prospect
+CO-000080,Kite Ventures,kiteventures.example,Software,460,133672349,APAC,New Zealand,2023-07-13,customer
+CO-000081,Beacon Studios,beaconstudios.example,Media,643,107250906,LATAM,Argentina,2023-07-14,prospect
+CO-000082,Quill Digital,quilldigital.example,Education,79,8422619,EMEA,Germany,2023-07-14,prospect
+CO-000083,Lumen Capital,lumencapital.example,Manufacturing,40,5624699,EMEA,United Arab Emirates,2023-07-15,prospect
+CO-000084,Meridian Networks,meridiannetworks.example,Manufacturing,49,9549639,EMEA,Sweden,2023-07-15,prospect
+CO-000085,Summit Capital,summitcapital.example,FinTech,35,7817814,EMEA,United Arab Emirates,2023-07-17,prospect
+CO-000086,Horizon Analytics,horizonanalytics.example,Retail,300,59018560,NA-East,Canada,2023-07-25,prospect
+CO-000087,Juniper Retail,juniperretail.example,Software,19,5098708,EMEA,United Kingdom,2023-07-26,prospect
+CO-000088,Union Group,uniongroup.example,Retail,273,50378617,EMEA,Spain,2023-07-29,customer
+CO-000089,Iron Labs,ironlabs.example,Software,11,2222860,APAC,New Zealand,2023-07-29,prospect
+CO-000090,Cedar Energy,cedarenergy.example,Retail,194,29100536,APAC,Australia,2023-07-31,prospect
+CO-000091,Cedar Solutions,cedarsolutions.example,Software,153,24516611,NA-East,Canada,2023-08-02,prospect
+CO-000092,Gable Systems,gablesystems.example,Energy,768,412491167,NA-East,Canada,2023-08-03,customer
+CO-000093,Willow Logistics,willowlogistics.example,FinTech,84,30430313,APAC,India,2023-08-03,prospect
+CO-000094,Nimbus Ventures,nimbusventures.example,Telecom,72,16708660,EMEA,Netherlands,2023-08-03,prospect
+CO-000095,Lattice Partners,latticepartners.example,Software,1430,329606033,EMEA,South Africa,2023-08-05,prospect
+CO-000096,Umber Energy,umberenergy.example,FinTech,880,286971112,Other,Mongolia,2023-08-06,prospect
+CO-000097,Pioneer Industries,pioneerindustries.example,Software,132,27639396,APAC,Japan,2023-08-08,prospect
+CO-000098,Evergreen Technologies,evergreentechnologies.example,Media,629,147408265,EMEA,United Arab Emirates,2023-08-09,prospect
+CO-000099,Vertex Health,vertexhealth.example,Retail,122,13990219,LATAM,Argentina,2023-08-10,customer
+CO-000100,Orbit Ventures,orbitventures.example,Media,76,11832342,NA-East,United States,2023-08-12,prospect
+CO-000101,Kite Group,kitegroup.example,Telecom,58,10578042,APAC,Japan,2023-08-12,customer
+CO-000102,Gable Technologies,gabletechnologies.example,Software,918,252328716,EMEA,France,2023-08-14,customer
+CO-000103,Kindred Health,kindredhealth.example,Healthcare,171,21542232,LATAM,Brazil,2023-08-14,customer
+CO-000104,Iron Capital,ironcapital.example,Manufacturing,53,8288375,NA-East,United States,2023-08-16,prospect
+CO-000105,Titan Retail,titanretail.example,Software,719,133082450,APAC,India,2023-08-17,prospect
+CO-000106,Keystone Health,keystonehealth.example,Logistics,340,31044375,APAC,Singapore,2023-08-20,prospect
+CO-000107,Vertex Mobility,vertexmobility.example,Logistics,23,2625442,EMEA,Spain,2023-08-24,prospect
+CO-000108,Apex Mobility,apexmobility.example,Software,94,17996310,APAC,Singapore,2023-08-25,prospect
+CO-000109,Titan Media,titanmedia.example,Software,207,50388728,LATAM,Argentina,2023-08-25,prospect
+CO-000110,Keystone Capital,keystonecapital.example,Manufacturing,177,44893145,EMEA,Germany,2023-08-26,prospect
+CO-000111,Ember Analytics,emberanalytics.example,Retail,242,42346256,NA-West,Canada,2023-08-28,prospect
+CO-000112,Willow Works,willowworks.example,Software,201,49854202,NA-East,Canada,2023-08-28,customer
+CO-000113,Lumen Telecom,lumentelecom.example,Media,44,10329828,APAC,India,2023-08-29,prospect
+CO-000114,Falcon Analytics,falconanalytics.example,FinTech,326,118634064,NA-West,United States,2023-08-30,prospect
+CO-000115,Ironclad Energy,ironcladenergy.example,FinTech,45,8859756,NA-East,Canada,2023-08-31,prospect
+CO-000116,Orbit Dynamics,orbitdynamics.example,Logistics,216,34887085,NA-West,United States,2023-09-01,customer
+CO-000117,Lumen Mobility,lumenmobility.example,Energy,33,13432693,NA-West,Canada,2023-09-07,prospect
+CO-000118,Echo Ventures,echoventures.example,FinTech,187,67667196,NA-East,United States,2023-09-09,prospect
+CO-000119,Argent Technologies,argenttechnologies.example,Healthcare,826,166522953,NA-West,Canada,2023-09-11,prospect
+CO-000120,Jade Materials,jadematerials.example,Software,489,68111872,EMEA,United Kingdom,2023-09-13,prospect
+CO-000121,Sable Digital,sabledigital.example,FinTech,699,179959257,NA-East,United States,2023-09-14,prospect
+CO-000122,Tundra Learning,tundralearning.example,Software,312,43081045,EMEA,Netherlands,2023-09-14,prospect
+CO-000123,Quartz Capital,quartzcapital.example,FinTech,167,47601516,EMEA,France,2023-09-20,prospect
+CO-000124,Vertex Retail,vertexretail.example,Software,531,87880055,NA-East,Canada,2023-09-21,prospect
+CO-000125,Lattice Software,latticesoftware.example,Education,260,17060748,EMEA,South Africa,2023-09-22,prospect
+CO-000126,Harbor Media,harbormedia.example,Retail,565,85539729,NA-East,Canada,2023-09-25,customer
+CO-000127,Kindred Holdings,kindredholdings.example,Logistics,5,591774,NA-West,Mexico,2023-09-26,prospect
+CO-000128,Yonder Ventures,yonderventures.example,Manufacturing,232,32252966,LATAM,Colombia,2023-09-29,prospect
+CO-000129,Lumen Materials,lumenmaterials.example,Healthcare,2031,207632815,NA-West,Canada,2023-10-01,prospect
+CO-000130,Xenon Logistics,xenonlogistics.example,Education,237,14947055,NA-East,United States,2023-10-04,prospect
+CO-000131,Echo Media,echomedia.example,Manufacturing,915,123171248,EMEA,United Kingdom,2023-10-10,prospect
+CO-000132,Wren Analytics,wrenanalytics.example,Retail,11,1256283,APAC,Japan,2023-10-13,prospect
+CO-000133,Gable Software,gablesoftware.example,Manufacturing,32,8337898,APAC,India,2023-10-16,prospect
+CO-000134,Tundra Studios,tundrastudios.example,Telecom,104,26178829,NA-East,Canada,2023-10-20,prospect
+CO-000135,Juniper Cloud,junipercloud.example,Retail,80,8209322,EMEA,Germany,2023-10-25,prospect
+CO-000136,Ironclad Solutions,ironcladsolutions.example,FinTech,149,43852072,EMEA,United Kingdom,2023-10-25,prospect
+CO-000137,Iron Health,ironhealth.example,Software,282,69192828,APAC,India,2023-10-27,prospect
+CO-000138,Indigo Mobility,indigomobility.example,Software,21,5678479,NA-East,Canada,2023-10-28,prospect
+CO-000139,Sable Solutions,sablesolutions.example,FinTech,192,41718668,NA-East,Canada,2023-11-01,customer
+CO-000140,Vertex Group,vertexgroup.example,Healthcare,1000,108124473,EMEA,South Africa,2023-11-01,prospect
+CO-000141,Indigo Dynamics,indigodynamics.example,Logistics,147,19132410,EMEA,Germany,2023-11-01,prospect
+CO-000142,Argent Solutions,argentsolutions.example,Telecom,28,10653789,EMEA,Spain,2023-11-02,prospect
+CO-000143,Wren Digital,wrendigital.example,Software,55,10722691,EMEA,Netherlands,2023-11-03,customer
+CO-000144,Willow Energy,willowenergy.example,Manufacturing,7,847838,APAC,India,2023-11-04,prospect
+CO-000145,Prism Holdings,prismholdings.example,Software,131,17291752,EMEA,Netherlands,2023-11-04,prospect
+CO-000146,Argent Media,argentmedia.example,Energy,480,281873488,EMEA,Spain,2023-11-05,prospect
+CO-000147,Vector Solutions,vectorsolutions.example,Retail,308,50447991,NA-East,Canada,2023-11-06,prospect
+CO-000148,Fathom Cloud,fathomcloud.example,Education,172,18830615,EMEA,United Arab Emirates,2023-11-07,prospect
+CO-000149,Lumen Institute,lumeninstitute.example,Telecom,23,6180532,LATAM,Argentina,2023-11-07,prospect
+CO-000150,Kindred Robotics,kindredrobotics.example,Retail,100,17877001,NA-East,United States,2023-11-13,prospect
+CO-000151,Jade Partners,jadepartners.example,Software,866,171593911,NA-East,Canada,2023-11-19,prospect
+CO-000152,Blue Analytics,blueanalytics.example,Logistics,309,40613831,EMEA,South Africa,2023-11-19,prospect
+CO-000153,Cobalt Cloud,cobaltcloud.example,Software,43,6670100,APAC,New Zealand,2023-11-21,prospect
+CO-000154,Vector Dynamics,vectordynamics.example,Retail,71,12147139,NA-East,Canada,2023-11-23,prospect
+CO-000155,Tundra Labs,tundralabs.example,Manufacturing,2040,509972018,EMEA,Germany,2023-11-23,prospect
+CO-000156,Keystone Technologies,keystonetechnologies.example,Healthcare,627,95904899,EMEA,United Arab Emirates,2023-12-03,prospect
+CO-000157,Umber Dynamics,umberdynamics.example,Healthcare,164,21455073,NA-East,Canada,2023-12-10,prospect
+CO-000158,Zenith Capital,zenithcapital.example,Manufacturing,325,42847353,NA-East,United States,2023-12-11,prospect
+CO-000159,Dune Analytics,duneanalytics.example,Manufacturing,285,48197447,NA-West,Mexico,2023-12-11,prospect
+CO-000160,Ember Networks,embernetworks.example,Software,59,15521695,LATAM,Brazil,2023-12-12,customer
+CO-000161,Wren Media,wrenmedia.example,FinTech,212,55306095,EMEA,Germany,2023-12-16,prospect
+CO-000162,Dune Software,dunesoftware.example,Education,180,11141842,LATAM,Argentina,2023-12-19,prospect
+CO-000163,Evergreen Ventures,evergreenventures.example,Education,229,20131667,EMEA,United Kingdom,2023-12-23,prospect
+CO-000164,Echo Software,echosoftware.example,Retail,196,43556905,APAC,India,2023-12-25,prospect
+CO-000165,Ironclad Software,ironcladsoftware.example,Manufacturing,60,10521794,APAC,New Zealand,2023-12-25,prospect
+CO-000166,Sable Group,sablegroup.example,Telecom,93,33221678,EMEA,Germany,2023-12-27,prospect
+CO-000167,Granite Foods,granitefoods.example,Retail,26,4553352,NA-East,Canada,2024-01-03,prospect
+CO-000168,Evergreen Mobility,evergreenmobility.example,Software,88,15339897,EMEA,Netherlands,2024-01-03,prospect
+CO-000169,Union Capital,unioncapital.example,Healthcare,94,13394992,EMEA,Spain,2024-01-04,prospect
+CO-000170,Forge Labs,forgelabs.example,Software,97,28405547,LATAM,Chile,2024-01-06,prospect
+CO-000171,Northwind Works,northwindworks.example,Manufacturing,894,236818997,NA-West,Canada,2024-01-08,prospect
+CO-000172,Meridian Software,meridiansoftware.example,Software,12,3384153,APAC,Singapore,2024-01-09,prospect
+CO-000173,Clarion Holdings,clarionholdings.example,Software,249,65946631,EMEA,South Africa,2024-01-10,prospect
+CO-000174,Fathom Analytics,fathomanalytics.example,FinTech,27,6367279,APAC,New Zealand,2024-01-11,prospect
+CO-000175,Driftwood Partners,driftwoodpartners.example,Retail,371,59686151,EMEA,United Arab Emirates,2024-01-12,prospect
+CO-000176,Argent Software,argentsoftware.example,Software,2440,395752272,NA-West,Mexico,2024-01-12,prospect
+CO-000177,Gable Retail,gableretail.example,Software,63,16890607,EMEA,Germany,2024-01-15,prospect
+CO-000178,Ironclad Group,ironcladgroup.example,Retail,150,19838162,EMEA,Sweden,2024-01-15,prospect
+CO-000179,Jade Robotics,jaderobotics.example,Software,50,11874509,APAC,Japan,2024-01-16,prospect
+CO-000180,Ridge Capital,ridgecapital.example,Manufacturing,58,7165194,LATAM,Brazil,2024-01-24,prospect
+CO-000181,Jade Energy,jadeenergy.example,Retail,38,4479355,EMEA,Germany,2024-01-24,prospect
+CO-000182,Fathom Materials,fathommaterials.example,Software,96,21461156,EMEA,Netherlands,2024-01-29,prospect
+CO-000183,Xenon Cloud,xenoncloud.example,Energy,500,183120720,APAC,New Zealand,2024-01-29,prospect
+CO-000184,Echo Robotics,echorobotics.example,Healthcare,35,3673591,APAC,India,2024-02-03,prospect
+CO-000185,Prism Industries,prismindustries.example,Logistics,73,12119198,NA-East,Canada,2024-02-09,prospect
+CO-000186,Mosaic Energy,mosaicenergy.example,Software,146,38434319,NA-East,United States,2024-02-13,prospect
+CO-000187,Orbit Energy,orbitenergy.example,Logistics,19,2022533,NA-East,United States,2024-02-13,prospect
+CO-000188,Gable Institute,gableinstitute.example,Healthcare,85,17148111,NA-East,United States,2024-02-14,prospect
+CO-000189,Clarion Cloud,clarioncloud.example,Software,19,2557743,EMEA,France,2024-02-17,prospect
+CO-000190,Onyx Labs,onyxlabs.example,Healthcare,451,74653203,EMEA,United Kingdom,2024-02-23,prospect
+CO-000191,Gable Cloud,gablecloud.example,Retail,234,50635066,EMEA,Germany,2024-02-23,prospect
+CO-000192,Kite Media,kitemedia.example,FinTech,1021,211474146,EMEA,Netherlands,2024-02-23,prospect
+CO-000193,Harbor Mobility,harbormobility.example,Education,154,17816944,APAC,Japan,2024-02-24,prospect
+CO-000194,Meridian Health,meridianhealth.example,Software,85,13570435,NA-East,United States,2024-02-25,prospect
+CO-000195,Vector Capital,vectorcapital.example,FinTech,788,136522351,APAC,Japan,2024-02-25,customer
+CO-000196,Vector Works,vectorworks.example,Education,723,62711214,EMEA,Germany,2024-02-26,customer
+CO-000197,Xenon Technologies,xenontechnologies.example,Retail,95,14476145,NA-East,United States,2024-02-26,prospect
+CO-000198,Juniper Telecom,junipertelecom.example,Manufacturing,258,31550071,EMEA,Spain,2024-03-04,prospect
+CO-000199,Yonder Industries,yonderindustries.example,FinTech,7,1797382,NA-East,United States,2024-03-06,prospect
+CO-000200,Union Telecom,uniontelecom.example,Logistics,47,8971564,EMEA,United Arab Emirates,2024-03-06,prospect
+CO-000201,Granite Software,granitesoftware.example,FinTech,280,67394399,NA-West,United States,2024-03-07,prospect
+CO-000202,Lumen Partners,lumenpartners.example,Software,69,19116769,APAC,Singapore,2024-03-10,prospect
+CO-000203,Orbit Labs,orbitlabs.example,Energy,24,17150916,NA-West,Canada,2024-03-13,prospect
+CO-000204,Beacon Holdings,beaconholdings.example,Retail,241,53596606,APAC,Australia,2024-03-20,customer
+CO-000205,Orbit Group,orbitgroup.example,Software,1219,201527594,NA-West,Mexico,2024-03-23,prospect
+CO-000206,Quartz Energy,quartzenergy.example,Telecom,107,28105673,NA-West,Canada,2024-03-24,prospect
+CO-000207,Fathom Logistics,fathomlogistics.example,Education,53,6438810,NA-West,Mexico,2024-03-27,prospect
+CO-000208,Cedar Industries,cedarindustries.example,Logistics,48,5487172,NA-West,Mexico,2024-03-28,prospect
+CO-000209,Sable Foods,sablefoods.example,Manufacturing,22,3834149,EMEA,Germany,2024-03-30,prospect
+CO-000210,Indigo Solutions,indigosolutions.example,Manufacturing,4944,839732536,EMEA,Netherlands,2024-04-02,prospect
+CO-000211,Summit Institute,summitinstitute.example,FinTech,182,65799500,EMEA,France,2024-04-04,prospect
+CO-000212,Northwind Labs,northwindlabs.example,Manufacturing,205,40490950,NA-East,Canada,2024-04-04,prospect
+CO-000213,Umber Group,umbergroup.example,Education,167,10095474,NA-East,Canada,2024-04-05,prospect
+CO-000214,Juniper Industries,juniperindustries.example,Manufacturing,363,89931162,EMEA,South Africa,2024-04-12,prospect
+CO-000215,Dune Group,dunegroup.example,Retail,233,35297039,NA-West,Canada,2024-04-12,prospect
+CO-000216,Titan Robotics,titanrobotics.example,Retail,124,14874836,APAC,Singapore,2024-04-13,prospect
+CO-000217,Forge Logistics,forgelogistics.example,Retail,231,50255207,NA-West,United States,2024-04-15,prospect
+CO-000218,Orbit Logistics,orbitlogistics.example,FinTech,29,7620367,NA-West,Mexico,2024-04-16,prospect
+CO-000219,Keystone Logistics,keystonelogistics.example,Software,146,40806653,EMEA,Sweden,2024-04-20,prospect
+CO-000220,Quill Ventures,quillventures.example,Healthcare,257,52491215,EMEA,Sweden,2024-04-23,prospect
+CO-000221,Jetstream Works,jetstreamworks.example,Retail,35,4360591,NA-West,Mexico,2024-04-26,prospect
+CO-000222,Evergreen Robotics,evergreenrobotics.example,FinTech,307,97564335,NA-East,United States,2024-04-26,prospect
+CO-000223,Brightly Capital,brightlycapital.example,Education,32,1995204,NA-East,Canada,2024-04-27,prospect
+CO-000224,Beacon Telecom,beacontelecom.example,Telecom,54,9744718,LATAM,Argentina,2024-04-30,customer
+CO-000225,Kite Holdings,kiteholdings.example,Retail,1323,167156246,NA-East,United States,2024-04-30,prospect
+CO-000226,Prism Analytics,prismanalytics.example,Education,140,8631432,NA-West,Canada,2024-05-02,prospect
+CO-000227,Fathom Dynamics,fathomdynamics.example,Media,39,7241899,EMEA,Spain,2024-05-07,prospect
+CO-000228,Delta Mobility,deltamobility.example,Software,99,20552941,LATAM,Colombia,2024-05-09,prospect
+CO-000229,Blue Software,bluesoftware.example,Software,68,8653677,NA-West,United States,2024-05-10,prospect
+CO-000230,Vector Media,vectormedia.example,Media,35,7274394,APAC,Singapore,2024-05-11,prospect
+CO-000231,Ridge Group,ridgegroup.example,Software,400,90775475,EMEA,South Africa,2024-05-13,prospect
+CO-000232,Ridge Partners,ridgepartners.example,Media,64,9566995,EMEA,United Kingdom,2024-05-14,prospect
+CO-000233,Northwind Institute,northwindinstitute.example,FinTech,93,32440883,NA-West,Mexico,2024-05-14,prospect
+CO-000234,Echo Analytics,echoanalytics.example,Education,45,4660389,APAC,Australia,2024-05-19,prospect
+CO-000235,Nimbus Solutions,nimbussolutions.example,Energy,315,175829456,NA-West,United States,2024-05-19,prospect
+CO-000236,Meridian Ventures,meridianventures.example,Logistics,1223,164577836,NA-East,United States,2024-05-19,prospect
+CO-000237,Forge Robotics,forgerobotics.example,Energy,123,66044990,EMEA,United Arab Emirates,2024-05-20,prospect
+CO-000238,Horizon Labs,horizonlabs.example,Energy,89,55645014,NA-West,Mexico,2024-05-22,prospect
+CO-000239,Halcyon Learning,halcyonlearning.example,FinTech,338,112204198,NA-West,Canada,2024-05-23,prospect
+CO-000240,Blue Cloud,bluecloud.example,Energy,70,31398103,NA-West,Canada,2024-05-24,prospect
+CO-000241,Horizon Systems,horizonsystems.example,Logistics,25,3136468,NA-East,United States,2024-05-27,prospect
+CO-000242,Redwood Health,redwoodhealth.example,Software,102,16800618,APAC,India,2024-06-04,prospect
+CO-000243,Zenith Partners,zenithpartners.example,FinTech,131,38390485,NA-East,United States,2024-06-06,prospect
+CO-000244,Kite Software,kitesoftware.example,Retail,172,28302477,EMEA,United Kingdom,2024-06-07,prospect
+CO-000245,Kindred Systems,kindredsystems.example,Logistics,49,5445192,APAC,New Zealand,2024-06-08,prospect
+CO-000246,Indigo Energy,indigoenergy.example,Software,313,63794871,LATAM,Colombia,2024-06-10,prospect
+CO-000247,Jetstream Industries,jetstreamindustries.example,Manufacturing,2483,433223507,NA-East,United States,2024-06-17,prospect
+CO-000248,Wren Capital,wrencapital.example,Software,78,18004894,NA-West,Mexico,2024-06-19,prospect
+CO-000249,Juniper Systems,junipersystems.example,Software,7,1611276,EMEA,South Africa,2024-06-19,prospect
+CO-000250,Atlas Labs,atlaslabs.example,Telecom,18,6885715,LATAM,Brazil,2024-06-20,prospect
+CO-000251,Jetstream Holdings,jetstreamholdings.example,Logistics,67,9539914,EMEA,France,2024-06-20,prospect
+CO-000252,Fathom Holdings,fathomholdings.example,Telecom,390,136946467,NA-East,United States,2024-06-20,prospect
+CO-000253,Cobalt Systems,cobaltsystems.example,Healthcare,110,14926689,NA-East,United States,2024-06-22,prospect
+CO-000254,Delta Networks,deltanetworks.example,Retail,208,44626136,EMEA,Germany,2024-06-23,prospect
+CO-000255,Jade Retail,jaderetail.example,Software,496,85994134,NA-West,United States,2024-06-23,prospect
+CO-000256,Prism Works,prismworks.example,Retail,263,38769613,APAC,New Zealand,2024-06-27,customer
+CO-000257,Driftwood Robotics,driftwoodrobotics.example,Logistics,103,19322070,APAC,India,2024-06-29,prospect
+CO-000258,Mosaic Labs,mosaiclabs.example,Healthcare,332,46529719,EMEA,United Arab Emirates,2024-07-05,customer
+CO-000259,Tundra Telecom,tundratelecom.example,FinTech,1253,352004927,APAC,India,2024-07-08,prospect
+CO-000260,Indigo Analytics,indigoanalytics.example,Manufacturing,97,20701817,LATAM,Argentina,2024-07-08,prospect
+CO-000261,Blue Learning,bluelearning.example,Manufacturing,97,12382991,LATAM,Chile,2024-07-11,prospect
+CO-000262,Onyx Ventures,onyxventures.example,Telecom,57,18000700,EMEA,United Arab Emirates,2024-07-11,prospect
+CO-000263,Cobalt Telecom,cobalttelecom.example,Retail,1046,125869944,EMEA,United Arab Emirates,2024-07-11,prospect
+CO-000264,Horizon Holdings,horizonholdings.example,FinTech,643,143339412,EMEA,United Arab Emirates,2024-07-13,prospect
+CO-000265,Titan Holdings,titanholdings.example,Telecom,64,11032342,EMEA,United Kingdom,2024-07-16,prospect
+CO-000266,Halcyon Ventures,halcyonventures.example,Healthcare,27,3514716,NA-East,Canada,2024-07-17,prospect
+CO-000267,Indigo Technologies,indigotechnologies.example,FinTech,89,29902663,EMEA,United Kingdom,2024-07-22,prospect
+CO-000268,Indigo Institute,indigoinstitute.example,Education,173,16844499,EMEA,Netherlands,2024-07-25,prospect
+CO-000269,Brightly Industries,brightlyindustries.example,Telecom,166,39957385,NA-West,Mexico,2024-07-26,prospect
+CO-000270,Orbit Partners,orbitpartners.example,FinTech,278,83410690,NA-East,Canada,2024-07-27,prospect
+CO-000271,Iron Retail,ironretail.example,Education,477,52078461,EMEA,United Kingdom,2024-07-27,prospect
+CO-000272,Cedar Institute,cedarinstitute.example,Energy,59,29498836,NA-East,Canada,2024-07-28,prospect
+CO-000273,Onyx Institute,onyxinstitute.example,FinTech,166,43909552,APAC,Singapore,2024-07-31,prospect
+CO-000274,Quill Holdings,quillholdings.example,Manufacturing,58,12900979,NA-West,Canada,2024-08-02,prospect
+CO-000275,Meridian Retail,meridianretail.example,Healthcare,552,94999041,EMEA,Sweden,2024-08-04,prospect
+CO-000276,Prism Dynamics,prismdynamics.example,Retail,87,9267456,NA-West,Mexico,2024-08-06,prospect
+CO-000277,Tundra Materials,tundramaterials.example,Software,12,2221754,APAC,Japan,2024-08-07,prospect
+CO-000278,Redwood Mobility,redwoodmobility.example,Manufacturing,43,10121760,NA-East,Canada,2024-08-10,customer
+CO-000279,Xenon Capital,xenoncapital.example,Healthcare,95,12648883,NA-West,United States,2024-08-10,prospect
+CO-000280,Cobalt Digital,cobaltdigital.example,Software,121,26426652,LATAM,Colombia,2024-08-12,prospect
+CO-000281,Lattice Media,latticemedia.example,Software,37,6837210,EMEA,United Arab Emirates,2024-08-13,prospect
+CO-000282,Zenith Retail,zenithretail.example,Retail,495,48896766,EMEA,France,2024-08-13,prospect
+CO-000283,Falcon Health,falconhealth.example,Software,572,150350426,APAC,India,2024-08-14,prospect
+CO-000284,Keystone Holdings,keystoneholdings.example,Software,830,224367355,APAC,Singapore,2024-08-15,prospect
+CO-000285,Pioneer Works,pioneerworks.example,Retail,114,16315322,LATAM,Chile,2024-08-15,prospect
+CO-000286,Quill Robotics,quillrobotics.example,FinTech,418,145820650,EMEA,France,2024-08-17,prospect
+CO-000287,Mosaic Works,mosaicworks.example,Retail,605,120342228,EMEA,Sweden,2024-08-19,prospect
+CO-000288,Mosaic Solutions,mosaicsolutions.example,Software,44,10416410,NA-West,United States,2024-08-19,prospect
+CO-000289,Delta Foods,deltafoods.example,Education,156,16173877,NA-East,United States,2024-08-20,prospect
+CO-000290,Northwind Materials,northwindmaterials.example,Media,56,6644337,APAC,Australia,2024-08-22,prospect
+CO-000291,Umber Systems,umbersystems.example,Healthcare,387,71292502,APAC,India,2024-08-23,prospect
+CO-000292,Clarion Networks,clarionnetworks.example,Healthcare,137,17358367,APAC,India,2024-08-26,prospect
+CO-000293,Keystone Partners,keystonepartners.example,Telecom,150,28396281,LATAM,Colombia,2024-09-01,prospect
+CO-000294,Titan Solutions,titansolutions.example,Logistics,94,11526174,NA-East,Canada,2024-09-05,prospect
+CO-000295,Argent Works,argentworks.example,Telecom,169,30386990,NA-West,United States,2024-09-06,prospect
+CO-000296,Quill Technologies,quilltechnologies.example,Manufacturing,293,38162954,NA-East,Canada,2024-09-07,prospect
+CO-000297,Driftwood Retail,driftwoodretail.example,Retail,413,75092715,APAC,Singapore,2024-09-07,prospect
+CO-000298,Forge Foods,forgefoods.example,Media,110,22587573,EMEA,South Africa,2024-09-11,prospect
+CO-000299,Meridian Solutions,meridiansolutions.example,Telecom,41,7710819,NA-East,United States,2024-09-13,prospect
+CO-000300,Vector Studios,vectorstudios.example,Manufacturing,162,26712133,NA-East,United States,2024-09-14,prospect
+CO-000301,Kindred Capital,kindredcapital.example,Manufacturing,6063,798304026,APAC,India,2024-09-16,prospect
+CO-000302,Northwind Dynamics,northwinddynamics.example,Retail,169,35906598,NA-East,Canada,2024-09-17,prospect
+CO-000303,Kite Foods,kitefoods.example,Manufacturing,218,52352657,APAC,India,2024-09-17,prospect
+CO-000304,Quill Mobility,quillmobility.example,Telecom,71,14224545,NA-West,Canada,2024-09-21,prospect
+CO-000305,Vertex Institute,vertexinstitute.example,Manufacturing,111,21968789,EMEA,United Arab Emirates,2024-09-26,prospect
+CO-000306,Atlas Studios,atlasstudios.example,Retail,536,115141367,NA-East,Canada,2024-09-28,prospect
+CO-000307,Granite Mobility,granitemobility.example,Retail,109,22654352,APAC,Singapore,2024-10-04,customer
+CO-000308,Fathom Learning,fathomlearning.example,Education,324,36922287,NA-West,Canada,2024-10-04,prospect
+CO-000309,Blue Studios,bluestudios.example,Retail,59,8834424,EMEA,Germany,2024-10-05,prospect
+CO-000310,Beacon Solutions,beaconsolutions.example,Software,65,18046917,EMEA,United Arab Emirates,2024-10-07,prospect
+CO-000311,Driftwood Systems,driftwoodsystems.example,Software,306,48813983,APAC,India,2024-10-08,prospect
+CO-000312,Argent Systems,argentsystems.example,Manufacturing,62,13992054,EMEA,Sweden,2024-10-14,prospect
+CO-000313,Horizon Dynamics,horizondynamics.example,Telecom,453,171245074,APAC,India,2024-10-15,prospect
+CO-000314,Harbor Energy,harborenergy.example,Logistics,166,17317955,NA-West,Canada,2024-10-17,prospect
+CO-000315,Harbor Dynamics,harbordynamics.example,Retail,56,12151655,LATAM,Colombia,2024-10-18,prospect
+CO-000316,Jade Digital,jadedigital.example,FinTech,281,48413830,APAC,Australia,2024-10-19,prospect
+CO-000317,Lumen Labs,lumenlabs.example,Healthcare,18,1771719,APAC,Australia,2024-10-20,customer
+CO-000318,Nimbus Institute,nimbusinstitute.example,Energy,268,122375806,EMEA,United Arab Emirates,2024-10-23,prospect
+CO-000319,Ember Industries,emberindustries.example,Software,6,1104290,LATAM,Chile,2024-10-24,prospect
+CO-000320,Harbor Software,harborsoftware.example,Energy,137,71232291,NA-East,United States,2024-10-25,prospect
+CO-000321,Dune Media,dunemedia.example,Software,157,37529660,APAC,Australia,2024-10-26,prospect
+CO-000322,Halcyon Holdings,halcyonholdings.example,FinTech,211,72500669,NA-East,Canada,2024-10-26,prospect
+CO-000323,Yonder Analytics,yonderanalytics.example,Healthcare,192,17805558,NA-West,United States,2024-10-27,prospect
+CO-000324,Wren Learning,wrenlearning.example,Software,142,31659131,EMEA,Spain,2024-10-28,prospect
+CO-000325,Argent Health,argenthealth.example,Software,484,88508038,LATAM,Brazil,2024-10-29,prospect
+CO-000326,Tundra Holdings,tundraholdings.example,FinTech,575,119052184,NA-East,United States,2024-10-30,prospect
+CO-000327,Vertex Industries,vertexindustries.example,Energy,154,56265202,APAC,Japan,2024-11-02,prospect
+CO-000328,Falcon Ventures,falconventures.example,Retail,589,98354070,NA-West,Canada,2024-11-03,prospect
+CO-000329,Dune Foods,dunefoods.example,Telecom,54,18233930,EMEA,Sweden,2024-11-04,customer
+CO-000330,Falcon Technologies,falcontechnologies.example,Telecom,6,1517679,NA-West,Mexico,2024-11-05,prospect
+CO-000331,Dune Materials,dunematerials.example,Healthcare,108,22520939,NA-West,United States,2024-11-05,prospect
+CO-000332,Echo Solutions,echosolutions.example,Retail,175,17395341,NA-East,United States,2024-11-05,prospect
+CO-000333,Argent Networks,argentnetworks.example,Software,5,1125085,APAC,New Zealand,2024-11-08,customer
+CO-000334,Jetstream Retail,jetstreamretail.example,Software,178,29933712,LATAM,Argentina,2024-11-11,customer
+CO-000335,Falcon Partners,falconpartners.example,Telecom,17,3599387,NA-West,Canada,2024-11-14,prospect
+CO-000336,Cobalt Group,cobaltgroup.example,Healthcare,346,48855323,EMEA,Sweden,2024-11-22,prospect
+CO-000337,Vector Foods,vectorfoods.example,Media,549,98349482,NA-West,Mexico,2024-11-23,prospect
+CO-000338,Indigo Foods,indigofoods.example,Logistics,444,53864046,APAC,Japan,2024-11-23,prospect
+CO-000339,Gable Industries,gableindustries.example,Software,70,14156694,Other,Mongolia,2024-11-27,prospect
+CO-000340,Evergreen Cloud,evergreencloud.example,Manufacturing,132,17373616,NA-East,United States,2024-11-29,prospect
+CO-000341,Brightly Software,brightlysoftware.example,Manufacturing,54,12684196,APAC,Singapore,2024-11-30,prospect
+CO-000342,Redwood Robotics,redwoodrobotics.example,Healthcare,76,11713091,EMEA,South Africa,2024-11-30,prospect
+CO-000343,Jade Technologies,jadetechnologies.example,Retail,961,121868373,APAC,Australia,2024-12-01,prospect
+CO-000344,Quartz Works,quartzworks.example,FinTech,85,14109464,NA-East,Canada,2024-12-03,prospect
+CO-000345,Willow Cloud,willowcloud.example,Healthcare,58,11898002,APAC,India,2024-12-04,prospect
+CO-000346,Willow Systems,willowsystems.example,Software,68,12118561,NA-West,United States,2024-12-05,prospect
+CO-000347,Jetstream Digital,jetstreamdigital.example,FinTech,78,13217451,NA-West,Mexico,2024-12-06,prospect
+CO-000348,Lumen Learning,lumenlearning.example,Healthcare,389,65709120,NA-West,United States,2024-12-09,prospect
+CO-000349,Indigo Networks,indigonetworks.example,Healthcare,505,87365891,LATAM,Argentina,2024-12-10,prospect
+CO-000350,Pioneer Retail,pioneerretail.example,Logistics,50,8521808,EMEA,United Arab Emirates,2024-12-10,prospect
+CO-000351,Lattice Cloud,latticecloud.example,Media,1408,326208437,NA-East,United States,2024-12-11,prospect
+CO-000352,Brightly Digital,brightlydigital.example,FinTech,42,7560656,APAC,Australia,2024-12-14,prospect
+CO-000353,Ridge Media,ridgemedia.example,Retail,442,63544753,NA-West,United States,2024-12-15,prospect
+CO-000354,Blue Networks,bluenetworks.example,Software,262,54431888,NA-East,United States,2024-12-16,prospect
+CO-000355,Kindred Materials,kindredmaterials.example,Logistics,264,29013908,LATAM,Chile,2024-12-20,customer
+CO-000356,Quill Group,quillgroup.example,FinTech,198,41901003,NA-East,United States,2024-12-22,customer
+CO-000357,Brightly Analytics,brightlyanalytics.example,Logistics,57,8515243,NA-East,United States,2024-12-25,prospect
+CO-000358,Harbor Works,harborworks.example,Media,95,12215207,NA-West,Canada,2024-12-26,prospect
+CO-000359,Northwind Analytics,northwindanalytics.example,Healthcare,53,4894040,EMEA,United Kingdom,2024-12-26,prospect
+CO-000360,Sable Partners,sablepartners.example,Retail,22,2590928,LATAM,Argentina,2024-12-26,prospect
+CO-000361,Orbit Networks,orbitnetworks.example,Manufacturing,441,105808597,NA-West,United States,2024-12-28,customer
+CO-000362,Orbit Studios,orbitstudios.example,Logistics,1031,117070219,NA-East,Canada,2024-12-30,prospect
+CO-000363,Quill Learning,quilllearning.example,Logistics,59,7598952,NA-West,United States,2025-01-02,prospect
+CO-000364,Ironclad Robotics,ironcladrobotics.example,Education,761,65799241,NA-West,United States,2025-01-06,prospect
+CO-000365,Cedar Materials,cedarmaterials.example,Education,84,9229914,APAC,Singapore,2025-01-06,prospect
+CO-000366,Gable Energy,gableenergy.example,Retail,77,7750749,EMEA,Germany,2025-01-07,prospect
+CO-000367,Redwood Labs,redwoodlabs.example,Telecom,163,45778467,EMEA,United Kingdom,2025-01-07,customer
+CO-000368,Wren Networks,wrennetworks.example,Software,226,37577349,EMEA,Spain,2025-01-09,prospect
+CO-000369,Vertex Dynamics,vertexdynamics.example,Energy,191,118703913,EMEA,South Africa,2025-01-10,prospect
+CO-000370,Sable Telecom,sabletelecom.example,Healthcare,12,2017230,APAC,Singapore,2025-01-10,prospect
+CO-000371,Jade Software,jadesoftware.example,Telecom,20,6276480,NA-West,Mexico,2025-01-10,prospect
+CO-000372,Onyx Software,onyxsoftware.example,Software,368,93604149,EMEA,Netherlands,2025-01-23,prospect
+CO-000373,Cedar Ventures,cedarventures.example,FinTech,279,86756645,APAC,India,2025-01-25,prospect
+CO-000374,Evergreen Group,evergreengroup.example,FinTech,1956,548326261,LATAM,Brazil,2025-01-28,prospect
+CO-000375,Blue Labs,bluelabs.example,Software,405,74639587,NA-West,Canada,2025-01-31,prospect
+CO-000376,Forge Industries,forgeindustries.example,Software,71,15309665,APAC,Singapore,2025-02-01,prospect
+CO-000377,Union Materials,unionmaterials.example,Education,6,567116,EMEA,United Arab Emirates,2025-02-01,prospect
+CO-000378,Atlas Group,atlasgroup.example,Telecom,63,13100433,NA-West,Mexico,2025-02-02,prospect
+CO-000379,Summit Industries,summitindustries.example,Education,26,2036827,EMEA,France,2025-02-07,prospect
+CO-000380,Summit Digital,summitdigital.example,FinTech,24,5480492,EMEA,Spain,2025-02-11,prospect
+CO-000381,Vertex Networks,vertexnetworks.example,Media,65,10320584,EMEA,France,2025-02-11,prospect
+CO-000382,Pioneer Mobility,pioneermobility.example,Media,149,17716320,NA-West,Mexico,2025-02-13,prospect
+CO-000383,Driftwood Group,driftwoodgroup.example,Retail,46,5770921,NA-West,United States,2025-02-13,prospect
+CO-000384,Glacier Health,glacierhealth.example,Software,7,1382822,NA-East,United States,2025-02-14,prospect
+CO-000385,Keystone Works,keystoneworks.example,Logistics,146,28000827,LATAM,Colombia,2025-02-14,prospect
+CO-000386,Blue Robotics,bluerobotics.example,Software,587,162013552,NA-West,Mexico,2025-02-17,prospect
+CO-000387,Ridge Labs,ridgelabs.example,Healthcare,39,6528526,NA-West,Mexico,2025-02-19,prospect
+CO-000388,Sable Logistics,sablelogistics.example,Manufacturing,130,22556914,EMEA,Spain,2025-02-20,customer
+CO-000389,Driftwood Institute,driftwoodinstitute.example,FinTech,494,160389507,NA-East,United States,2025-02-23,prospect
+CO-000390,Juniper Learning,juniperlearning.example,Manufacturing,241,60385005,APAC,Japan,2025-02-24,prospect
+CO-000391,Delta Energy,deltaenergy.example,Software,244,37500903,NA-West,United States,2025-02-26,customer
+CO-000392,Jetstream Ventures,jetstreamventures.example,Logistics,1324,210685235,EMEA,Germany,2025-03-01,prospect
+CO-000393,Redwood Studios,redwoodstudios.example,Software,227,45606413,LATAM,Chile,2025-03-01,prospect
+CO-000394,Delta Holdings,deltaholdings.example,FinTech,1003,199568551,NA-East,Canada,2025-03-12,customer
+CO-000395,Jade Holdings,jadeholdings.example,Energy,33,11226626,NA-West,United States,2025-03-12,prospect
+CO-000396,Apex Technologies,apextechnologies.example,Logistics,31,3717981,EMEA,South Africa,2025-03-15,prospect
+CO-000397,Xenon Industries,xenonindustries.example,Logistics,540,75975724,NA-East,Canada,2025-03-18,prospect
+CO-000398,Wren Labs,wrenlabs.example,Software,31,7066878,NA-West,Mexico,2025-03-19,prospect
+CO-000399,Nimbus Learning,nimbuslearning.example,Software,32,5934714,NA-East,Canada,2025-03-21,prospect
+CO-000400,Evergreen Industries,evergreenindustries.example,Software,39,8396885,NA-West,United States,2025-03-23,prospect
+CO-000401,Pioneer Capital,pioneercapital.example,Energy,733,531439065,APAC,Australia,2025-03-24,prospect
+CO-000402,Yonder Software,yondersoftware.example,Logistics,245,41100908,NA-West,Mexico,2025-03-27,prospect
+CO-000403,Nimbus Mobility,nimbusmobility.example,FinTech,632,107598319,NA-West,Canada,2025-03-27,prospect
+CO-000404,Vector Energy,vectorenergy.example,Media,89,12282032,EMEA,France,2025-03-27,prospect
+CO-000405,Forge Holdings,forgeholdings.example,Energy,140,81184576,EMEA,United Arab Emirates,2025-03-31,prospect
+CO-000406,Delta Solutions,deltasolutions.example,Energy,70,27708013,NA-East,Canada,2025-04-04,prospect
+CO-000407,Quill Studios,quillstudios.example,FinTech,126,42314818,NA-West,United States,2025-04-07,prospect
+CO-000408,Dune Cloud,dunecloud.example,Software,41,11227204,EMEA,South Africa,2025-04-09,prospect
+CO-000409,Ironclad Logistics,ironcladlogistics.example,Retail,346,55561467,NA-West,United States,2025-04-10,prospect
+CO-000410,Brightly Materials,brightlymaterials.example,Logistics,6,638243,LATAM,Argentina,2025-04-10,prospect
+CO-000411,Iron Energy,ironenergy.example,Retail,61,11229351,NA-West,Canada,2025-04-13,prospect
+CO-000412,Summit Energy,summitenergy.example,Education,138,13364852,EMEA,United Arab Emirates,2025-04-15,prospect
+CO-000413,Xenon Ventures,xenonventures.example,Software,45,8947279,NA-East,Canada,2025-04-16,prospect
+CO-000414,Titan Systems,titansystems.example,Healthcare,22,4619390,NA-East,United States,2025-04-18,prospect
+CO-000415,Keystone Learning,keystonelearning.example,FinTech,768,177528675,EMEA,Sweden,2025-04-19,prospect
+CO-000416,Zenith Works,zenithworks.example,Software,64,16094552,NA-East,Canada,2025-04-23,prospect
+CO-000417,Mosaic Networks,mosaicnetworks.example,Logistics,71,8582307,NA-East,Canada,2025-04-25,prospect
+CO-000418,Brightly Labs,brightlylabs.example,FinTech,572,190792174,NA-East,United States,2025-04-30,prospect
+CO-000419,Ridge Studios,ridgestudios.example,Manufacturing,249,42232284,EMEA,Netherlands,2025-04-30,prospect
+CO-000420,Dune Telecom,dunetelecom.example,Logistics,125,13637291,APAC,Singapore,2025-05-01,prospect
+CO-000421,Meridian Systems,meridiansystems.example,Education,38,3561532,NA-East,Canada,2025-05-05,prospect
+CO-000422,Tundra Solutions,tundrasolutions.example,Healthcare,185,24950113,NA-West,Mexico,2025-05-07,prospect
+CO-000423,Echo Cloud,echocloud.example,FinTech,24,7631271,NA-West,United States,2025-05-10,prospect
+CO-000424,Ridge Ventures,ridgeventures.example,Software,37,9690284,EMEA,United Kingdom,2025-05-12,customer
+CO-000425,Orbit Technologies,orbittechnologies.example,FinTech,40,11361454,APAC,Singapore,2025-05-12,prospect
+CO-000426,Union Digital,uniondigital.example,Retail,161,25071841,EMEA,United Kingdom,2025-05-12,prospect
+CO-000427,Northwind Ventures,northwindventures.example,Software,3061,783598270,APAC,Singapore,2025-05-13,prospect
+CO-000428,Mosaic Dynamics,mosaicdynamics.example,Retail,19,3041275,NA-East,United States,2025-05-15,prospect
+CO-000429,Ember Digital,emberdigital.example,FinTech,188,52775914,APAC,Japan,2025-05-15,customer
+CO-000430,Nimbus Logistics,nimbuslogistics.example,Healthcare,181,28801985,NA-West,United States,2025-05-16,prospect
+CO-000431,Tundra Works,tundraworks.example,FinTech,311,71041784,Other,Iceland,2025-05-18,prospect
+CO-000432,Onyx Telecom,onyxtelecom.example,Retail,399,42112081,EMEA,Germany,2025-05-18,prospect
+CO-000433,Titan Logistics,titanlogistics.example,Media,123,16475906,APAC,New Zealand,2025-05-18,prospect
+CO-000434,Mosaic Media,mosaicmedia.example,Education,28,1512385,NA-West,United States,2025-05-19,prospect
+CO-000435,Atlas Health,atlashealth.example,Software,76,14881708,APAC,Japan,2025-05-24,prospect
+CO-000436,Orbit Robotics,orbitrobotics.example,Software,35,6651989,NA-East,Canada,2025-05-28,prospect
+CO-000437,Keystone Retail,keystoneretail.example,Healthcare,147,20164320,EMEA,Sweden,2025-05-28,prospect
+CO-000438,Apex Telecom,apextelecom.example,Logistics,163,14190669,NA-East,United States,2025-05-30,prospect
+CO-000439,Juniper Holdings,juniperholdings.example,FinTech,105,35091419,EMEA,United Kingdom,2025-06-02,prospect
+CO-000440,Mosaic Digital,mosaicdigital.example,Manufacturing,59,12088458,NA-East,United States,2025-06-03,prospect
+CO-000441,Umber Health,umberhealth.example,Manufacturing,375,72022979,NA-East,Canada,2025-06-06,prospect
+CO-000442,Fathom Industries,fathomindustries.example,FinTech,78,14409512,EMEA,Netherlands,2025-06-07,prospect
+CO-000443,Ridge Institute,ridgeinstitute.example,Logistics,66,12034054,LATAM,Colombia,2025-06-16,prospect
+CO-000444,Meridian Telecom,meridiantelecom.example,Retail,93,18184276,NA-West,Mexico,2025-06-21,prospect
+CO-000445,Evergreen Partners,evergreenpartners.example,Software,145,22931543,EMEA,Netherlands,2025-06-24,prospect
+CO-000446,Meridian Studios,meridianstudios.example,Manufacturing,103,14358841,NA-West,United States,2025-06-26,prospect
+CO-000447,Nimbus Group,nimbusgroup.example,FinTech,114,21206658,NA-West,United States,2025-06-28,prospect
+CO-000448,Jade Analytics,jadeanalytics.example,Software,1765,240523458,NA-East,United States,2025-06-30,prospect
+CO-000449,Sable Capital,sablecapital.example,Media,202,34677355,NA-West,Mexico,2025-07-03,prospect
+CO-000450,Orbit Capital,orbitcapital.example,FinTech,1439,477142310,APAC,New Zealand,2025-07-04,prospect
+CO-000451,Northwind Group,northwindgroup.example,Software,428,114539816,EMEA,Sweden,2025-07-14,customer
+CO-000452,Indigo Materials,indigomaterials.example,Software,287,68663639,EMEA,South Africa,2025-07-14,prospect
+CO-000453,Vector Learning,vectorlearning.example,Healthcare,1200,197679888,NA-West,Canada,2025-07-16,prospect
+CO-000454,Argent Energy,argentenergy.example,FinTech,1174,287414277,EMEA,Netherlands,2025-07-18,prospect
+CO-000455,Halcyon Media,halcyonmedia.example,Retail,123,21916016,LATAM,Argentina,2025-07-20,prospect
+CO-000456,Willow Industries,willowindustries.example,Healthcare,18,1911617,NA-East,United States,2025-07-22,prospect
+CO-000457,Zenith Media,zenithmedia.example,Telecom,19,4019102,EMEA,United Kingdom,2025-07-25,prospect
+CO-000458,Argent Group,argentgroup.example,FinTech,165,44733376,NA-East,United States,2025-07-29,prospect
+CO-000459,Zenith Robotics,zenithrobotics.example,Logistics,285,27455582,EMEA,Germany,2025-08-06,prospect
+CO-000460,Lattice Retail,latticeretail.example,Healthcare,124,16595641,LATAM,Chile,2025-08-11,prospect
+CO-000461,Summit Ventures,summitventures.example,Manufacturing,239,28001163,EMEA,United Kingdom,2025-08-14,prospect
+CO-000462,Driftwood Digital,driftwooddigital.example,Healthcare,87,15067583,EMEA,France,2025-08-17,prospect
+CO-000463,Redwood Solutions,redwoodsolutions.example,Software,308,65157153,EMEA,United Kingdom,2025-08-20,prospect
+CO-000464,Titan Dynamics,titandynamics.example,Software,150,36472682,NA-East,Canada,2025-08-31,prospect
+CO-000465,Northwind Software,northwindsoftware.example,Retail,203,20561816,LATAM,Argentina,2025-08-31,prospect
+CO-000466,Mosaic Learning,mosaiclearning.example,Retail,236,48587067,NA-West,Mexico,2025-09-03,prospect
+CO-000467,Lumen Holdings,lumenholdings.example,Software,327,51186012,NA-East,Canada,2025-09-11,prospect
+CO-000468,Pioneer Labs,pioneerlabs.example,Healthcare,70,9671999,NA-East,Canada,2025-09-13,customer
+CO-000469,Iron Systems,ironsystems.example,Education,560,65841406,NA-West,Mexico,2025-09-19,prospect
+CO-000470,Gable Holdings,gableholdings.example,Media,143,31084345,EMEA,Germany,2025-09-24,prospect
+CO-000471,Cobalt Holdings,cobaltholdings.example,Healthcare,13,1170200,EMEA,France,2025-10-09,prospect
+CO-000472,Driftwood Technologies,driftwoodtechnologies.example,Telecom,50,10497340,EMEA,South Africa,2025-10-12,prospect
+CO-000473,Cobalt Institute,cobaltinstitute.example,Retail,117,17358029,NA-West,United States,2025-10-16,prospect
+CO-000474,Wren Industries,wrenindustries.example,Media,112,19593505,NA-East,United States,2025-10-17,prospect
+CO-000475,Onyx Health,onyxhealth.example,Healthcare,382,43392405,NA-East,United States,2025-10-18,prospect
+CO-000476,Jetstream Dynamics,jetstreamdynamics.example,FinTech,1577,571906240,NA-West,Mexico,2025-11-01,prospect
+CO-000477,Willow Institute,willowinstitute.example,Logistics,287,53082902,EMEA,Netherlands,2025-11-02,prospect
+CO-000478,Blue Foods,bluefoods.example,Software,73,11677594,NA-West,United States,2025-11-04,prospect
+CO-000479,Juniper Capital,junipercapital.example,Media,25,2698112,EMEA,France,2025-11-07,prospect
+CO-000480,Willow Studios,willowstudios.example,Software,44,6891468,EMEA,South Africa,2025-11-10,prospect
+CO-000481,Cobalt Industries,cobaltindustries.example,Retail,141,24294629,APAC,Australia,2025-11-14,prospect
+CO-000482,Ember Group,embergroup.example,Manufacturing,282,55026138,NA-East,United States,2025-11-23,customer
+CO-000483,Nimbus Energy,nimbusenergy.example,Retail,28,5451456,EMEA,United Kingdom,2025-11-23,prospect
+CO-000484,Summit Mobility,summitmobility.example,Logistics,1310,206195061,EMEA,Netherlands,2025-11-25,prospect
+CO-000485,Beacon Labs,beaconlabs.example,Healthcare,70,8233401,NA-East,Canada,2025-11-29,prospect
+CO-000486,Evergreen Labs,evergreenlabs.example,FinTech,66,15721681,EMEA,France,2025-12-02,prospect
+CO-000487,Prism Systems,prismsystems.example,FinTech,77,26060454,NA-East,Canada,2025-12-10,prospect
+CO-000488,Argent Ventures,argentventures.example,Retail,34,7353843,NA-East,Canada,2025-12-22,prospect
+CO-000489,Onyx Solutions,onyxsolutions.example,FinTech,213,43048597,APAC,Australia,2025-12-26,prospect
+CO-000490,Willow Solutions,willowsolutions.example,Software,321,76350714,NA-East,Canada,2026-01-03,prospect
+CO-000491,Vector Partners,vectorpartners.example,FinTech,70,23947534,NA-West,Mexico,2026-01-09,prospect
+CO-000492,Delta Works,deltaworks.example,Manufacturing,557,114199059,NA-East,United States,2026-01-13,prospect
+CO-000493,Pioneer Energy,pioneerenergy.example,Logistics,112,19249009,LATAM,Argentina,2026-01-22,prospect
+CO-000494,Ridge Networks,ridgenetworks.example,Education,77,9111983,EMEA,Germany,2026-02-04,prospect
+CO-000495,Redwood Telecom,redwoodtelecom.example,Telecom,5,1893469,APAC,Japan,2026-02-26,prospect
+CO-000496,Juniper Institute,juniperinstitute.example,Energy,77,35272328,NA-East,United States,2026-02-28,prospect
+CO-000497,Prism Software,prismsoftware.example,Retail,187,18668884,NA-East,Canada,2026-03-23,prospect
+CO-000498,Beacon Media,beaconmedia.example,Energy,18,7231486,APAC,Australia,2026-04-26,prospect
+CO-000499,Clarion Materials,clarionmaterials.example,FinTech,1369,259743217,NA-West,Mexico,2026-06-11,prospect
+CO-000500,Beacon Ventures,beaconventures.example,Media,171,21014944,EMEA,Germany,2026-08-26,prospect

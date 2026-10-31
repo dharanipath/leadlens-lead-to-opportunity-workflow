@@ -1,0 +1,41 @@
+campaign_id,campaign_name,channel,product_line,target_region,start_date,end_date,budget_usd,status
+CMP-0001,Security Paid Search Spring 1,Paid Search,Security,Global,2026-03-27,2026-05-16,454000,completed
+CMP-0002,Analytics Webinar Summer 2,Webinar,Analytics,APAC,2026-04-16,2026-05-27,260000,completed
+CMP-0003,Automation Email Fall 3,Email,Automation,Global,2026-04-04,2026-04-21,404000,completed
+CMP-0004,Analytics Content Syndication Q1 4,Content Syndication,Analytics,EMEA,2026-04-01,2026-05-11,175000,completed
+CMP-0005,Security Trade Show Q2 5,Trade Show,Security,Global,2026-08-21,2026-09-19,301000,completed
+CMP-0006,Analytics Partner Referral Q3 6,Partner Referral,Analytics,NA-West,2026-02-12,2026-03-23,60000,completed
+CMP-0007,Security Organic Social Q4 7,Organic Social,Security,APAC,2026-04-29,2026-06-30,157000,completed
+CMP-0008,Analytics Paid Search Launch 8,Paid Search,Analytics,Global,2026-02-09,2026-04-06,135000,completed
+CMP-0009,Collaboration Webinar Spring 9,Webinar,Collaboration,APAC,2026-09-29,2026-11-29,161000,active
+CMP-0010,Analytics Email Summer 10,Email,Analytics,LATAM,2026-03-08,2026-03-31,484000,completed
+CMP-0011,Analytics Content Syndication Fall 11,Content Syndication,Analytics,APAC,2026-08-03,2026-10-14,287000,completed
+CMP-0012,Automation Trade Show Q1 12,Trade Show,Automation,Global,2026-02-11,2026-03-01,86000,completed
+CMP-0013,Analytics Partner Referral Q2 13,Partner Referral,Analytics,NA-West,2026-04-16,2026-05-26,139000,completed
+CMP-0014,Collaboration Organic Social Q3 14,Organic Social,Collaboration,APAC,2026-07-18,2026-09-24,424000,completed
+CMP-0015,Automation Paid Search Q4 15,Paid Search,Automation,NA-West,2026-02-20,2026-04-12,486000,completed
+CMP-0016,Security Webinar Launch 16,Webinar,Security,NA-East,2026-02-12,2026-04-14,469000,completed
+CMP-0017,Automation Email Spring 17,Email,Automation,LATAM,2026-10-12,2026-12-11,240000,active
+CMP-0018,Security Content Syndication Summer 18,Content Syndication,Security,Global,2026-06-04,2026-07-05,142000,completed
+CMP-0019,Analytics Trade Show Fall 19,Trade Show,Analytics,Global,2026-03-23,2026-04-12,360000,completed
+CMP-0020,Security Partner Referral Q1 20,Partner Referral,Security,NA-East,2026-05-09,2026-06-07,154000,completed
+CMP-0021,Collaboration Organic Social Q2 21,Organic Social,Collaboration,EMEA,2026-02-15,2026-04-19,438000,completed
+CMP-0022,Automation Paid Search Q3 22,Paid Search,Automation,EMEA,2026-06-26,2026-08-31,254000,completed
+CMP-0023,Security Webinar Q4 23,Webinar,Security,NA-West,2026-10-05,2026-11-15,82000,active
+CMP-0024,Analytics Email Launch 24,Email,Analytics,Global,2026-04-16,2026-05-23,161000,completed
+CMP-0025,Collaboration Content Syndication Spring 25,Content Syndication,Collaboration,APAC,2026-03-19,2026-04-15,79000,completed
+CMP-0026,Security Trade Show Summer 26,Trade Show,Security,Global,2026-02-13,2026-03-25,224000,completed
+CMP-0027,Security Partner Referral Fall 27,Partner Referral,Security,Global,2026-09-01,2026-09-25,191000,completed
+CMP-0028,Collaboration Organic Social Q1 28,Organic Social,Collaboration,Global,2026-05-15,2026-05-29,344000,completed
+CMP-0029,Analytics Paid Search Q2 29,Paid Search,Analytics,Global,2026-01-09,2026-03-24,225000,completed
+CMP-0030,Automation Webinar Q3 30,Webinar,Automation,EMEA,2026-02-03,2026-03-22,1690000,completed
+CMP-0031,Collaboration Email Q4 31,Email,Collaboration,APAC,2026-09-22,2026-11-02,52000,active
+CMP-0032,Security Content Syndication Launch 32,Content Syndication,Security,NA-East,2026-09-21,2026-11-30,305000,active
+CMP-0033,Security Trade Show Spring 33,Trade Show,Security,APAC,2026-09-20,2026-11-11,805000,active
+CMP-0034,Collaboration Partner Referral Summer 34,Partner Referral,Collaboration,NA-West,2026-05-05,2026-07-13,91000,completed
+CMP-0035,Collaboration Organic Social Fall 35,Organic Social,Collaboration,Global,2026-04-17,2026-07-01,223000,completed
+CMP-0036,Security Paid Search Q1 36,Paid Search,Security,LATAM,2026-07-02,2026-07-22,251000,completed
+CMP-0037,Analytics Webinar Q2 37,Webinar,Analytics,NA-East,2026-01-29,2026-03-29,451000,completed
+CMP-0038,Analytics Email Q3 38,Email,Analytics,Global,2026-07-08,2026-08-04,156000,completed
+CMP-0039,Analytics Content Syndication Q4 39,Content Syndication,Analytics,Global,2026-04-20,2026-06-20,985000,completed
+CMP-0040,Security Trade Show Launch 40,Trade Show,Security,NA-East,2026-02-06,2026-04-15,181000,completed

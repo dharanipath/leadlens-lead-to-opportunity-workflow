@@ -1,0 +1,20 @@
+rule_id,version,dimension,feature,rule_type,params,max_points,description,effective_from,effective_to,is_active
+SR-V1-001,1,fit,industry,lookup,"{""map"":{""Education"":3,""Energy"":6,""FinTech"":12,""Healthcare"":10,""Logistics"":7,""Manufacturing"":8,""Media"":5,""Retail"":5,""Software"":12,""Telecom"":9}}",12,Industry match against ideal-customer-profile (ICP) tiers,2026-01-01,,1
+SR-V1-002,1,fit,employee_count,band,"{""bands"":[[1000,14],[200,10],[50,6],[10,3],[0,1]]}",14,Company size band (employees) - larger accounts have bigger deal potential,2026-01-01,,1
+SR-V1-003,1,fit,seniority,lookup,"{""map"":{""C-level"":10,""Director"":6,""IC"":1,""Manager"":3,""VP"":8}}",10,Buyer seniority - proxy for decision authority,2026-01-01,,1
+SR-V1-004,1,fit,region,lookup,"{""map"":{""APAC"":2,""EMEA"":3,""LATAM"":1,""NA-East"":4,""NA-West"":4,""Other"":0}}",4,Strategic region priority,2026-01-01,,1
+SR-V1-005,1,fit,free_email,flag,"{""points"":-10}",0,Penalty: personal/free e-mail domain instead of a corporate domain,2026-01-01,,1
+SR-V1-006,1,intent,act:demo_request,flag_count,"{""points"":15}",15,Explicit demo request in the last 30 days,2026-01-01,,1
+SR-V1-007,1,intent,act:pricing_page_view,per_count,"{""per"":4}",12,"Pricing-page views (4 pts each, capped at 12)",2026-01-01,,1
+SR-V1-008,1,intent,act:trial_signup,flag_count,"{""points"":10}",10,Free-trial sign-up,2026-01-01,,1
+SR-V1-009,1,intent,act:content_download,per_count,"{""per"":3}",6,"Bottom-funnel content downloads (3 pts each, capped at 6)",2026-01-01,,1
+SR-V1-010,1,engagement,act:email_click,per_count,"{""per"":2}",8,"E-mail link clicks (2 pts each, capped at 8)",2026-01-01,,1
+SR-V1-011,1,engagement,act:email_open,per_count,"{""per"":1}",4,"E-mail opens (1 pt each, capped at 4)",2026-01-01,,1
+SR-V1-012,1,engagement,act:webinar_attend,per_count,"{""per"":6}",6,Webinar attendance,2026-01-01,,1
+SR-V1-013,1,engagement,act:web_visit,per_count,"{""per"":1}",5,"Website visits (1 pt each, capped at 5)",2026-01-01,,1
+SR-V1-014,1,engagement,act:support_inquiry,per_count,"{""per"":2}",4,"Pre-sales support inquiries (2 pts each, capped at 4)",2026-01-01,,1
+SR-V1-015,1,engagement,days_since_last_inbound,threshold_gt,"{""points"":-5,""threshold"":14}",0,Inactivity penalty: no inbound touch in the 14 days before scoring,2026-01-01,,1
+SR-V1-020,1,fit,dimension,dimension_cap,{},40,Dimension cap: FIT <= 40,2026-01-01,,1
+SR-V1-021,1,intent,dimension,dimension_cap,{},35,Dimension cap: INTENT <= 35,2026-01-01,,1
+SR-V1-022,1,engagement,dimension,dimension_cap,{},25,Dimension cap: ENGAGEMENT <= 25,2026-01-01,,1
+SR-V1-030,1,fit,score_band,band_threshold,"{""hot"":70,""warm"":40}",100,"Band cut-offs: Hot >= 70, Warm >= 40, else Cold",2026-01-01,,1

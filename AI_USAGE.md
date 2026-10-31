@@ -59,17 +59,27 @@ Being explicit about defects found *after* the AI believed a step was finished:
 | Units of logic | `python -m unittest discover -s tests` → 9 tests (scoring bounds/leakage, consent precedence, routing paths, de-dup tiers, generator validation, byte-identical regeneration, ID format) |
 | Project runs on a clean machine | Fresh `git clone` of the public repo → checksums of all 32 data files match the manifest → `python run.py` → API, UI and validator all pass |
 
-## 6. What the human author did and what remains the author's to attest
+## 6. My role as the author (first person) — and the line between my work and the AI's
 
-Verifiable from the session: the author chose and supplied the problem, set the goal and acceptance bar, asked for a full completeness audit, asked for the gaps to be fixed and
-verified, asked for run instructions, and directed publication to GitHub and a clean-clone test.
+I used an AI coding assistant for this submission and I want the split to be clear.
 
-An AI cannot truthfully describe what a person privately reviewed. The author should therefore complete this section in their own words before submitting:
+**What I did myself**
+* **Chose the problem and set the bar.** I supplied the problem statement and the goal: a complete full-stack solution with a backend and an impressive UI, with every requirement in the statement fulfilled.
+* **Steered the work with follow-up requests.** After the first build I asked whether it fulfilled *every* aspect of the statement, then asked for the shortfalls to be found and fixed so that everything works as the statement describes,
+  then asked what someone else needs to do to run it, and then asked for it to be published.
+* **Directed how it was published and shared.** I asked for a new, meaningfully named public GitHub repository and the URL, asked that every file needed to run on another machine be available there, and asked which link to share.
+  I also asked for this transparency material to be added once I had the submission guidelines.
+* **One request the AI advised against.** I asked for ignored files to be renamed and committed so nothing would be missing. The AI recommended against it (the ignored files are databases rebuilt on first run, one ~95 MB)
+  and instead proved with a fresh clone that nothing was missing; the repository was left that way.
 
-* **Reviewed personally:** _(e.g. which screens/flows you clicked through, which generated files you opened, which rules you read in `docs/business_rules.md`)_
-* **Changed personally:** _(any edits you made to code, parameters, text)_
-* **Validated personally:** _(commands you re-ran and what you observed)_
-* **Disagreements / follow-ups:** _(anything you would change)_
+**What the AI did, at my direction** (not independent work by me)
+* All code, data-generation logic, documentation and tests, including every check listed in §5 and the defects found and fixed in §4.
+* The verification itself: running the validator, reproducibility script, unit tests, browser scan/flows and the clean-clone test. I received and relied on the AI's reports of these results.
+
+**Additional checks I have made myself** — only list things you actually did, in your own words, and delete this line:
+* _(e.g. "I opened the app and tried the Prospect Portal presets", "I re-ran `python run.py` on my machine", "I read `docs/business_rules.md`")_
+
+**Where I would push back / follow up** — _(optional: anything in the design or results you disagree with or would change)_
 
 ## 7. Limits of the AI-assisted verification
 
